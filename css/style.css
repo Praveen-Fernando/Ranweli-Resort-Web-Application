@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&family=Sofia&display=swap');
+:root {
+    --primary-color: #;
+    --light-gray: #;
+    --border: #;
+    --text-color: #;
+    --robato: "Robato", sans-serif;
+    --gugi: "Gugi", cursive;
+    --sofia: "Sofia", cursive;
+}
