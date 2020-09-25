@@ -1,3 +1,5 @@
+/*Import fonts from google fonts*/
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&family=Sofia&display=swap');
 :root {
     --primary-color: #;
@@ -7,4 +9,41 @@
     --robato: "Robato", sans-serif;
     --gugi: "Gugi", cursive;
     --sofia: "Sofia", cursive;
+}
+
+.font-roboto {
+    font-family: var(--robato_light);
+}
+
+
+/* Resort page */
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
 }

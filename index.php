@@ -15,6 +15,9 @@
 	<!-- Font awesome -->
 	<link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
 
+	<!-- Style sheet -->
+	<link rel="stylesheet" href="css/style.css">
+
 	<title>Document</title>
 </head>
 <body>
