@@ -23,8 +23,17 @@ p {
     text-justify: inter-word;
 }
 
+.nav-item {
+    background-color: rgb(248, 248, 248);
+    margin: 0px 1px 0px 0px;
+}
+
+.nav-item:hover {
+    background-color: rgb(192, 198, 245);
+}
+
 .collapsible {
-    background-color: #777;
+    background-color: rgb(6, 117, 182);
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -35,9 +44,8 @@ p {
     font-size: 15px;
 }
 
-.active,
 .collapsible:hover {
-    background-color: #555;
+    background-color: rgb(25, 98, 146);
 }
 
 .content {
@@ -45,5 +53,13 @@ p {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
 }
+
+.fa-sort-down {
+    position: absolute;
+    right: 0;
+    margin-right: 3%;
+}
+
+.con-img {}
