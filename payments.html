@@ -14,38 +14,112 @@
     <script src="https://kit.fontawesome.com/425e216962.js" crossorigin="anonymous"></script>
 
     <!-- Style sheet -->
-    <link rel="stylesheet" href="css/payment-css.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Document</title>
 </head>
 
 <body>
-
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-12 text-center">
-                <h3>Payments</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 col-12">
-                <div class="">
-                    <form action="#" method="post">
-                        <section class="module">
-                            <span class="loadable-icon-and-text">
-                                <span class="LOCK loadable-icon-and-text-icon">
-                                    <span class> <i class="fa fa-lock" aria-hidden="true"></i>
-                                         Your payment is secure. Your card details will not be shared.
-                                    </span>
-                            </span>
-                            </span>
-
-                        </section>
-                    </form>
-                </div>
+            <div class="col-md-12 col-12 text-center m-0 p-5">
+                <h1>Payments</h1>
             </div>
         </div>
     </div>
+    <div class="container">
+        <section class="module m-0 pb-3">
+            <span class="loadable-icon-and-text">
+                <span class="LOCK loadable-icon-and-text-icon">
+                    <span class> <i class="fa fa-lock" aria-hidden="true"></i>
+                        Your payment is secure. Your card details will not be shared.
+                    </span>
+            </span>
+            </span>
+        </section>
+
+        <form action="#" method="post">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="form">
+                        <div>
+                            <input type="text" name="cardNumber" id="cardNumber" required/>
+                            <label for="cardNumber" class="label-name">
+                                            <span class="content-name">Card number</span>
+                                        </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="form">
+                        <div>
+                            <input type="number" name="expData" id="expData" onfocus="this.placeholder = 'MM/YY'" onblur="this.placeholder=''" required/>
+                            <label for="expData" class="label-name">
+                                                <span class="content-name">Expiration date</span>
+                                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="form">
+                        <div>
+                            <div class="info-box">
+                                <i class="fa fa-info-circle info" aria-hidden="true"></i>
+                            </div>
+
+                            <input type="number" name="secCode" id="secCode" onfocus="this.placeholder = '3 or 4 digits'" onblur="this.placeholder=''" required/>
+                            <label for="secCode" class="label-name">
+                                                <span class="content-name">Security code</span>
+                                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="form">
+                        <div>
+                            <input type="text" name="firstName" id="firstName" required/>
+                            <label for="firstName" class="label-name">
+                                            <span class="content-name">First name</span>
+                                        </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="form">
+                        <div>
+                            <input type="text" name="lastName" id="lastName" required/>
+                            <label for="lastName" class="label-name">
+                                            <span class="content-name">Last name</span>
+                                        </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <input class="rounded-0" type="checkbox" name="rememberMe" id="rememberMe">
+                    <label for="rememberMe">Remeber this card for future use</label>
+                </div>
+            </div>
+            <br>
+            <div class="buttons">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <button class="btn btn-primary border-2 rounded-0" type="submit">Done</button>
+                        <button class="btn border-primary border-2 rounded-0" type="reset">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <br>
+    </div>
+
 
     <footer>
 
@@ -58,7 +132,19 @@
 
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+    <script>
+        jQuery(document).ready(function($) {
+            $('.info').on('click', function(e) {
+                e.preventDefault();
+                $(this).siblings('.info-box').show();
+            });
 
+            $('.close-button').on('click', function(e) {
+                e.preventDefault();
+                $(this).parents('.info-box').hide();
+            });
+        });
+    </script>
 </body>
 
 </html>
