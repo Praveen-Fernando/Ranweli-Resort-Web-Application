@@ -172,11 +172,21 @@
             if (cardNumber.value[0] == 5) {
                 image1.style.display = 'none';
                 image2.style.display = 'block';
+
+                if (cardNumber.value[0] == 5 && cardNumber.value[1] == 6 ||
+                    cardNumber.value[0] == 5 && cardNumber.value[1] == 7 ||
+                    cardNumber.value[0] == 5 && cardNumber.value[1] == 8 ||
+                    cardNumber.value[0] == 5 && cardNumber.value[1] == 9) {
+                    image1.style.display = 'none';
+                    image2.style.display = 'none';
+                }
             } else {
                 image1.style.display = 'none';
                 image2.style.display = 'none';
             }
         }
+
+
         cardNumber.onkeyup = equals;
     </script>
     <script>
