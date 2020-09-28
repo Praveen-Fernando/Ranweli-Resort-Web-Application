@@ -5,49 +5,81 @@
 :root {
     --primary-color: #;
     --light-gray: #;
-    --border: #;
-    --text-color: #;
+    --text-color: black;
+    --josefin: "Josefin", sans-serif;
     --robato: "Robato", sans-serif;
     --gugi: "Gugi", cursive;
     --sofia: "Sofia", cursive;
 }
 
+
+/* Common CSS */
+
 .font-roboto {
     font-family: var(--robato_light);
 }
 
+h1 {
+    font-family: var(--josefin);
+    letter-spacing: 7px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--josefin);
+}
+
 p {
     text-align: justify;
+    font-weight: normal;
     text-justify: inter-word;
+    font-family: var(--robato);
+}
+
+hr {
+    background-color: black;
+    width: 80px;
+    padding: 0;
 }
 
 
 /* Resort page */
 
 .nav-item {
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(50, 95, 58);
     margin: 0px 1px 0px 0px;
 }
 
 .active,
 .nav-item:hover {
-    background-color: rgb(192, 198, 245);
+    background-color: rgb(48, 113, 156);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
 }
 
 .collapsible {
-    background-color: rgb(6, 117, 182);
-    color: white;
+    background-color: rgb(67, 124, 79);
+    color: rgb(255, 255, 255);
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
     text-align: left;
-    outline: none;
+    outline: none !important;
     font-size: 15px;
 }
 
 .collapsible:hover {
-    background-color: rgb(25, 98, 146);
+    background-color: rgb(48, 113, 156);
 }
 
 .content {
@@ -73,12 +105,22 @@ p {
     text-align: center !important;
 }
 
+th {
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
 #table1 {
-    background-color: rgb(170, 221, 250);
+    background-color: rgb(255, 223, 106);
 }
 
 #table2 {
-    background-color: rgb(170, 221, 250);
+    background-color: rgb(243, 203, 72);
+}
+
+.note {
+    background-color: rgb(224, 83, 83);
+    color: white;
 }
 
 
@@ -162,4 +204,19 @@ form input:valid+.label-name::after {
         display: block;
         margin: 0.4em auto;
     }
+}
+
+.card-imgs {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+img {
+    width: 40px;
+}
+
+#pic1 {
+    position: absolute;
+    right: 0;
 }
