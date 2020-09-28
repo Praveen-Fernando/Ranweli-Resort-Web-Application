@@ -15,6 +15,7 @@
 
     <!-- Style sheet -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/index-css/style.css">
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -25,14 +26,79 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="assets/js/jquery.payform.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.payment/3.0.0/jquery.payment.min.js"></script>
+
+    <style>
+        body {
+            background-color: white !important;
+        }
+    </style>
+
     <title>Document</title>
 </head>
 
 <body>
+    <script src="/lib/w3.js"></script>
 
+    <input type="checkbox" name="mobile-nav" id="mobile-nav" class="gaadiexp-check" onchange="this.blur()">
+    <label for="mobile-nav" class="gaadiexp white" tabindex="0"><span></span></label>
+    <nav role="navigation" class="header-nav">
+
+        <div class="menu" style="margin-left: -16px;">
+            <ul style="width: 267px; text-align: start;">
+
+                <li class="page_item page-item-2">
+                    <a href="index.php" class="list-group-item">Home</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="profile.html" class="list-group-item ">Activities</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="wishlist.html" class="list-group-item">The Resort</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="wishlist.html" class="list-group-item">Accommodation</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="interest.html" class="list-group-item">Environmental Policies</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="bids.html" class="list-group-item">Ayurveda</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="dashboard.html" class="list-group-item">Weedings</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="dashboard.html" class="list-group-item">Reservations</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="bid-history.html" class="list-group-item">Our Partners</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="dashboard.html" class="list-group-item">Awards & Recognition</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="dashboard.html" class="list-group-item">Gallery</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="dashboard.html" class="list-group-item">What's New</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="dashboard.html" class="list-group-item">Special Offers</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="dashboard.html" class="list-group-item">About us</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="dashboard.html" class="list-group-item">Contact Us</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-12 text-center m-0 p-5">
+            <div class="col-md-12 col-12 text-center m-0 p-4">
                 <h1>Payments</h1>
                 <hr>
             </div>
@@ -137,81 +203,160 @@
         <br>
     </div>
 
+    <br>
 
     <footer>
 
-    </footer>
+        <!--footer starts from here-->
+        <footer class="footer" style="background-color: #212529; text-align: justify;">
+            <img src="images/index-imgs/download.jpg" style="float: left;
+    margin-left: 20px; margin-top: 26px;">
+            <div class="container bottom_border">
+                <div class="row">
+                    <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Contact Ranweli</h5>
+                        <p><i class="fa fa-location-arrow"></i> Ranweli Holiday Village,</p>
+                        <p style="margin-left: 16px;"> Waikkal, Sri Lanka</p>
+                        <p><i class="fa fa-phone"></i> Phone: +94 31 2277359</p>
+                        <p><i class="fa fa fa-fax"></i> Fax: +94 31 2277358 </p>
+                        <p><i class="fa fa fa-envelope"></i> E-Mail: ranweli@slt.lk </p>
+
+                    </div>
+
+                    <div class=" col-sm-4 col-md  col-6 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Facilities</h5>
+                        <!--headin5_amrc-->
+                        <ul class="footer_ul_amrc">
+                            <p><i class="fas fa-check-circle"></i>Restaurant and Bars</p>
+                            <p><i class="fas fa-check-circle"></i> Sports Facilities</p>
+                            <p><i class="fas fa-check-circle"></i> Ayurvedic Centre</p>
+                            <p><i class="fas fa-check-circle"></i> Eco/Jewellery Shop</p>
+                            <p><i class="fas fa-check-circle"></i> Beachfront Pool</p>
+                            <p><i class="fas fa-check-circle"></i>Evening Entertainment</p>
+                        </ul>
+                        <!--footer_ul_amrc ends here-->
+                    </div>
 
 
-    <!--Form animations-->
-    <script>
-        jQuery(document).ready(function($) {
-            $('.info').on('click', function(e) {
-                e.preventDefault();
-                $(this).siblings('.info-box').show();
+                    <div class=" col-sm-4 col-md  col-6 col">
+                        <h5 class="headin5_amrc col_white_amrc pt2">Activities</h5>
+                        <!--headin5_amrc-->
+                        <ul class="footer_ul_amrc">
+                            <p><i class="fas fa-running"></i>Bird Watching</p>
+                            <p><i class="fas fa-running"></i>Nature Walk</p>
+                            <p><i class="fas fa-running"></i>Cycling</p>
+                            <p><i class="fas fa-running"></i>ERiver Cruise</p>
+                            <p><i class="fas fa-running"></i>Tours Outside Ranweli</p>
+                            <p><i class="fas fa-running"></i>Craft Demonstrations</p>
+                            <p><i class="fas fa-running"></i>Butterfly Watchings</p>
+                        </ul>
+                        <!--footer_ul_amrc ends here-->
+                    </div>
+
+
+
+                    <!------ Include the above in your HEAD tag ---- ------>
+
+                    <div class="containers" style="position: absolute; margin-left: 806px; margin-top: -247px; float: left;">
+                        <div class="row" style="margin-left: 67px;">
+                            <div class="span12s" style="margin-top: 304px;">
+                                <div class="thumbnail center well well-small text-center">
+                                    <h2 style=" color: #ffffff;">Newsletter</h2>
+
+                                    <p style=" color: #212529;">Subscribe to our weekly Newsletter and stay tuned.</p>
+
+                                    <form action="" method="post">
+                                        <div class="input-prepend"><span class="add-on"><i class="icon-envelope"></i></span>
+                                            <input type="text" id="" name="" placeholder="your@email.com" style=" color: #212529;">
+                                        </div>
+                                        <br />
+                                        <input type="submit" value="Subscribe Now!" class="btn btn-large btn-light" />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <ul class="foote_bottom_ul_amrc">
+                    <p class="text-center" style="text-align: center;">Copyright © Ranweli Holiday Village 2020. All Rights Reserved.</p>
+            </div>
+
+        </footer>
+
+
+        <!--Form animations-->
+        <script>
+            jQuery(document).ready(function($) {
+                $('.info').on('click', function(e) {
+                    e.preventDefault();
+                    $(this).siblings('.info-box').show();
+                });
+
+                $('.close-button').on('click', function(e) {
+                    e.preventDefault();
+                    $(this).parents('.info-box').hide();
+                });
             });
+        </script>
 
-            $('.close-button').on('click', function(e) {
-                e.preventDefault();
-                $(this).parents('.info-box').hide();
-            });
-        });
-    </script>
+        <!--Display credit card images-->
+        <script>
+            var cardNumber = document.getElementById('cardNumber');
+            var image1 = document.getElementById('pic1');
+            var image2 = document.getElementById('pic2');
 
-    <!--Display credit card images-->
-    <script>
-        var cardNumber = document.getElementById('cardNumber');
-        var image1 = document.getElementById('pic1');
-        var image2 = document.getElementById('pic2');
+            function equals() {
+                if (cardNumber.value[0] == 4) {
+                    image1.style.display = 'block';
+                    image2.style.display = 'none';
+                } else
+                if (cardNumber.value[0] == 5) {
+                    image1.style.display = 'none';
+                    image2.style.display = 'block';
 
-        function equals() {
-            if (cardNumber.value[0] == 4) {
-                image1.style.display = 'block';
-                image2.style.display = 'none';
-            } else
-            if (cardNumber.value[0] == 5) {
-                image1.style.display = 'none';
-                image2.style.display = 'block';
-
-                if (cardNumber.value[0] == 5 && cardNumber.value[1] == 6 ||
-                    cardNumber.value[0] == 5 && cardNumber.value[1] == 7 ||
-                    cardNumber.value[0] == 5 && cardNumber.value[1] == 8 ||
-                    cardNumber.value[0] == 5 && cardNumber.value[1] == 9) {
+                    if (cardNumber.value[0] == 5 && cardNumber.value[1] == 6 ||
+                        cardNumber.value[0] == 5 && cardNumber.value[1] == 7 ||
+                        cardNumber.value[0] == 5 && cardNumber.value[1] == 8 ||
+                        cardNumber.value[0] == 5 && cardNumber.value[1] == 9) {
+                        image1.style.display = 'none';
+                        image2.style.display = 'none';
+                    }
+                } else {
                     image1.style.display = 'none';
                     image2.style.display = 'none';
                 }
-            } else {
-                image1.style.display = 'none';
-                image2.style.display = 'none';
             }
-        }
 
 
-        cardNumber.onkeyup = equals;
-    </script>
-    <script>
-        $(function($) {
-            $('[data-numeric]').payment('restrictNumeric');
-            $('.cardNumber').payment('formatCardNumber');
-            $('.expDate').payment('formatCardExpiry');
-            $('.secCode').payment('formatCardCVC');
-            $.fn.toggleInputError = function(erred) {
-                this.parent('.form').toggleClass('has-error', erred);
-                return this;
-            };
-            /*
-            $('form').submit(function(e) {
-                e.preventDefault();
-                var cardType = $.payment.cardType($('.cardNumber').val());
-                $('.cardNumber').toggleInputError(!$.payment.validateCardNumber($('.cardNumber').val()));
-                $('.expDate').toggleInputError(!$.payment.validateCardExpiry($('.expDate').payment('cardExpiryVal')));
-                $('.secCode').toggleInputError(!$.payment.validateCardCVC($('.secCode').val(), cardType));
-                $('.validation').removeClass('text-danger text-success');
-                $('.validation').addClass($('.has-error').length ? 'text-danger' : 'text-success');
+            cardNumber.onkeyup = equals;
+        </script>
+        <script>
+            $(function($) {
+                $('[data-numeric]').payment('restrictNumeric');
+                $('.cardNumber').payment('formatCardNumber');
+                $('.expDate').payment('formatCardExpiry');
+                $('.secCode').payment('formatCardCVC');
+                $.fn.toggleInputError = function(erred) {
+                    this.parent('.form').toggleClass('has-error', erred);
+                    return this;
+                };
+                /*
+                $('form').submit(function(e) {
+                    e.preventDefault();
+                    var cardType = $.payment.cardType($('.cardNumber').val());
+                    $('.cardNumber').toggleInputError(!$.payment.validateCardNumber($('.cardNumber').val()));
+                    $('.expDate').toggleInputError(!$.payment.validateCardExpiry($('.expDate').payment('cardExpiryVal')));
+                    $('.secCode').toggleInputError(!$.payment.validateCardCVC($('.secCode').val(), cardType));
+                    $('.validation').removeClass('text-danger text-success');
+                    $('.validation').addClass($('.has-error').length ? 'text-danger' : 'text-success');
+                });
+                */
             });
-            */
-        });
-    </script>
+        </script>
 </body>
 
 </html>
