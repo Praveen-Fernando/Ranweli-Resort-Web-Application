@@ -39,6 +39,7 @@
 <body>
     <script src="/lib/w3.js"></script>
 
+    <!--Header-->
     <input type="checkbox" name="mobile-nav" id="mobile-nav" class="gaadiexp-check" onchange="this.blur()">
     <label for="mobile-nav" class="gaadiexp white" tabindex="0"><span></span></label>
     <nav role="navigation" class="header-nav">
@@ -94,11 +95,12 @@
 
             </ul>
         </div>
-
     </nav>
+
+    <!--Main Content-->
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-12 text-center m-0 p-4">
+            <div class="col-md-12 col-12 text-center m-0 p-3">
                 <h1>Payments</h1>
                 <hr>
             </div>
@@ -117,7 +119,7 @@
 
         <form action="#" method="post">
             <div class="row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6 col-sm-12 col-6">
                     <div class="form">
                         <input type="tel" name="cardNumber" id="cardNumber" class="cardNumber" required onchange="equals()" />
                         <label for="cardNumber" class="label-name">
@@ -205,158 +207,142 @@
 
     <br>
 
-    <footer>
 
-        <!--footer starts from here-->
-        <footer class="footer" style="background-color: #212529; text-align: justify;">
-            <img src="images/index-imgs/download.jpg" style="float: left;
-    margin-left: 20px; margin-top: 26px;">
-            <div class="container bottom_border">
-                <div class="row">
-                    <div class=" col-sm-4 col-md col-sm-4  col-12 col">
-                        <h5 class="headin5_amrc col_white_amrc pt2">Contact Ranweli</h5>
-                        <p><i class="fa fa-location-arrow"></i> Ranweli Holiday Village,</p>
-                        <p style="margin-left: 16px;"> Waikkal, Sri Lanka</p>
-                        <p><i class="fa fa-phone"></i> Phone: +94 31 2277359</p>
-                        <p><i class="fa fa fa-fax"></i> Fax: +94 31 2277358 </p>
-                        <p><i class="fa fa fa-envelope"></i> E-Mail: ranweli@slt.lk </p>
+    <!--footer starts from here-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-12 text-center pt-5">
+                    <img src="images/index-imgs/download.jpg" class="h-50 w-75 p-0 m-0 col-sm-12 col-sm-2">
+                </div>
 
-                    </div>
+                <div class="col-md-2">
+                    <h5 class="headin5_amrc col_white_amrc pt-5">Contact Ranweli</h5>
+                    <p><i class="fa fa-location-arrow"></i> Ranweli Holiday Village,</p>
+                    <p> Waikkal, Sri Lanka</p>
+                    <p><i class="fa fa-phone"></i> Phone: +94 31 2277359</p>
+                    <p><i class="fa fa fa-fax"></i> Fax: +94 31 2277358 </p>
+                    <p><i class="fa fa fa-envelope"></i> E-Mail: ranweli@slt.lk </p>
+                </div>
 
-                    <div class=" col-sm-4 col-md  col-6 col">
-                        <h5 class="headin5_amrc col_white_amrc pt2">Facilities</h5>
-                        <!--headin5_amrc-->
-                        <ul class="footer_ul_amrc">
-                            <p><i class="fas fa-check-circle"></i>Restaurant and Bars</p>
-                            <p><i class="fas fa-check-circle"></i> Sports Facilities</p>
-                            <p><i class="fas fa-check-circle"></i> Ayurvedic Centre</p>
-                            <p><i class="fas fa-check-circle"></i> Eco/Jewellery Shop</p>
-                            <p><i class="fas fa-check-circle"></i> Beachfront Pool</p>
-                            <p><i class="fas fa-check-circle"></i>Evening Entertainment</p>
-                        </ul>
-                        <!--footer_ul_amrc ends here-->
-                    </div>
-
-
-                    <div class=" col-sm-4 col-md  col-6 col">
-                        <h5 class="headin5_amrc col_white_amrc pt2">Activities</h5>
-                        <!--headin5_amrc-->
-                        <ul class="footer_ul_amrc">
-                            <p><i class="fas fa-running"></i>Bird Watching</p>
-                            <p><i class="fas fa-running"></i>Nature Walk</p>
-                            <p><i class="fas fa-running"></i>Cycling</p>
-                            <p><i class="fas fa-running"></i>ERiver Cruise</p>
-                            <p><i class="fas fa-running"></i>Tours Outside Ranweli</p>
-                            <p><i class="fas fa-running"></i>Craft Demonstrations</p>
-                            <p><i class="fas fa-running"></i>Butterfly Watchings</p>
-                        </ul>
-                        <!--footer_ul_amrc ends here-->
-                    </div>
+                <div class="col-md-2 col-sm-12">
+                    <h5 class="headin5_amrc col_white_amrc pt-5">Facilities</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <p><i class="fas fa-check-circle"></i>Restaurant and Bars</p>
+                        <p><i class="fas fa-check-circle"></i> Sports Facilities</p>
+                        <p><i class="fas fa-check-circle"></i> Ayurvedic Centre</p>
+                        <p><i class="fas fa-check-circle"></i> Eco/Jewellery Shop</p>
+                        <p><i class="fas fa-check-circle"></i> Beachfront Pool</p>
+                        <p><i class="fas fa-check-circle"></i>Evening Entertainment</p>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
 
 
+                <div class="col-md-2 col-sm-12">
+                    <h5 class="headin5_amrc col_white_amrc pt-5">Activities</h5>
+                    <!--headin5_amrc-->
+                    <ul class="footer_ul_amrc">
+                        <p><i class="fas fa-running"></i>Bird Watching</p>
+                        <p><i class="fas fa-running"></i>Nature Walk</p>
+                        <p><i class="fas fa-running"></i>Cycling</p>
+                        <p><i class="fas fa-running"></i>ERiver Cruise</p>
+                        <p><i class="fas fa-running"></i>Tours Outside Ranweli</p>
+                        <p><i class="fas fa-running"></i>Craft Demonstrations</p>
+                        <p><i class="fas fa-running"></i>Butterfly Watchings</p>
+                    </ul>
+                    <!--footer_ul_amrc ends here-->
+                </div>
 
-                    <!------ Include the above in your HEAD tag ---- ------>
 
-                    <div class="containers" style="position: absolute; margin-left: 806px; margin-top: -247px; float: left;">
-                        <div class="row" style="margin-left: 67px;">
-                            <div class="span12s" style="margin-top: 304px;">
-                                <div class="thumbnail center well well-small text-center">
-                                    <h2 style=" color: #ffffff;">Newsletter</h2>
 
-                                    <p style=" color: #212529;">Subscribe to our weekly Newsletter and stay tuned.</p>
+                <!------ Include the above in your HEAD tag ---- ------>
 
-                                    <form action="" method="post">
-                                        <div class="input-prepend"><span class="add-on"><i class="icon-envelope"></i></span>
-                                            <input type="text" id="" name="" placeholder="your@email.com" style=" color: #212529;">
-                                        </div>
-                                        <br />
-                                        <input type="submit" value="Subscribe Now!" class="btn btn-large btn-light" />
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-3 text-center mt-5">
+
                 </div>
             </div>
+        </div>
 
 
-            <div class="container">
-                <ul class="foote_bottom_ul_amrc">
-                    <p class="text-center" style="text-align: center;">Copyright © Ranweli Holiday Village 2020. All Rights Reserved.</p>
-            </div>
+        <hr>
+        <div class="container ">
+            <ul class="foote_bottom_ul_amrc ">
+                <p class="text-center " style="text-align: center; ">Copyright © Ranweli Holiday Village 2020. All Rights Reserved.</p>
+        </div>
+    </footer>
 
-        </footer>
 
-
-        <!--Form animations-->
-        <script>
-            jQuery(document).ready(function($) {
-                $('.info').on('click', function(e) {
-                    e.preventDefault();
-                    $(this).siblings('.info-box').show();
-                });
-
-                $('.close-button').on('click', function(e) {
-                    e.preventDefault();
-                    $(this).parents('.info-box').hide();
-                });
+    <!--Form animations-->
+    <script>
+        jQuery(document).ready(function($) {
+            $('.info').on('click', function(e) {
+                e.preventDefault();
+                $(this).siblings('.info-box').show();
             });
-        </script>
 
-        <!--Display credit card images-->
-        <script>
-            var cardNumber = document.getElementById('cardNumber');
-            var image1 = document.getElementById('pic1');
-            var image2 = document.getElementById('pic2');
+            $('.close-button').on('click', function(e) {
+                e.preventDefault();
+                $(this).parents('.info-box').hide();
+            });
+        });
+    </script>
 
-            function equals() {
-                if (cardNumber.value[0] == 4) {
-                    image1.style.display = 'block';
-                    image2.style.display = 'none';
-                } else
-                if (cardNumber.value[0] == 5) {
-                    image1.style.display = 'none';
-                    image2.style.display = 'block';
+    <!--Display credit card images-->
+    <script>
+        var cardNumber = document.getElementById('cardNumber');
+        var image1 = document.getElementById('pic1');
+        var image2 = document.getElementById('pic2');
 
-                    if (cardNumber.value[0] == 5 && cardNumber.value[1] == 6 ||
-                        cardNumber.value[0] == 5 && cardNumber.value[1] == 7 ||
-                        cardNumber.value[0] == 5 && cardNumber.value[1] == 8 ||
-                        cardNumber.value[0] == 5 && cardNumber.value[1] == 9) {
-                        image1.style.display = 'none';
-                        image2.style.display = 'none';
-                    }
-                } else {
+        function equals() {
+            if (cardNumber.value[0] == 4) {
+                image1.style.display = 'block';
+                image2.style.display = 'none';
+            } else
+            if (cardNumber.value[0] == 5) {
+                image1.style.display = 'none';
+                image2.style.display = 'block';
+
+                if (cardNumber.value[0] == 5 && cardNumber.value[1] == 6 ||
+                    cardNumber.value[0] == 5 && cardNumber.value[1] == 7 ||
+                    cardNumber.value[0] == 5 && cardNumber.value[1] == 8 ||
+                    cardNumber.value[0] == 5 && cardNumber.value[1] == 9) {
                     image1.style.display = 'none';
                     image2.style.display = 'none';
                 }
+            } else {
+                image1.style.display = 'none';
+                image2.style.display = 'none';
             }
+        }
 
 
-            cardNumber.onkeyup = equals;
-        </script>
-        <script>
-            $(function($) {
-                $('[data-numeric]').payment('restrictNumeric');
-                $('.cardNumber').payment('formatCardNumber');
-                $('.expDate').payment('formatCardExpiry');
-                $('.secCode').payment('formatCardCVC');
-                $.fn.toggleInputError = function(erred) {
-                    this.parent('.form').toggleClass('has-error', erred);
-                    return this;
-                };
-                /*
-                $('form').submit(function(e) {
-                    e.preventDefault();
-                    var cardType = $.payment.cardType($('.cardNumber').val());
-                    $('.cardNumber').toggleInputError(!$.payment.validateCardNumber($('.cardNumber').val()));
-                    $('.expDate').toggleInputError(!$.payment.validateCardExpiry($('.expDate').payment('cardExpiryVal')));
-                    $('.secCode').toggleInputError(!$.payment.validateCardCVC($('.secCode').val(), cardType));
-                    $('.validation').removeClass('text-danger text-success');
-                    $('.validation').addClass($('.has-error').length ? 'text-danger' : 'text-success');
-                });
-                */
+        cardNumber.onkeyup = equals;
+    </script>
+    <script>
+        $(function($) {
+            $('[data-numeric]').payment('restrictNumeric');
+            $('.cardNumber').payment('formatCardNumber');
+            $('.expDate').payment('formatCardExpiry');
+            $('.secCode').payment('formatCardCVC');
+            $.fn.toggleInputError = function(erred) {
+                this.parent('.form').toggleClass('has-error', erred);
+                return this;
+            };
+            /*
+            $('form').submit(function(e) {
+                e.preventDefault();
+                var cardType = $.payment.cardType($('.cardNumber').val());
+                $('.cardNumber').toggleInputError(!$.payment.validateCardNumber($('.cardNumber').val()));
+                $('.expDate').toggleInputError(!$.payment.validateCardExpiry($('.expDate').payment('cardExpiryVal')));
+                $('.secCode').toggleInputError(!$.payment.validateCardCVC($('.secCode').val(), cardType));
+                $('.validation').removeClass('text-danger text-success');
+                $('.validation').addClass($('.has-error').length ? 'text-danger' : 'text-success');
             });
-        </script>
+            */
+        });
+    </script>
 </body>
 
 </html>
