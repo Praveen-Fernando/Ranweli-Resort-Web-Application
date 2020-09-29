@@ -7,7 +7,7 @@
     --light-gray: #;
     --text-color: black;
     --josefin: "Josefin", sans-serif;
-    --robato: "Robato", sans-serif;
+    --century: "Century gothic";
     --gugi: "Gugi", cursive;
     --sofia: "Sofia", cursive;
 }
@@ -28,8 +28,15 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a {
     font-family: var(--josefin) !important;
+}
+
+button,
+ul,
+li {
+    font-family: var(--century);
 }
 
 input {
@@ -40,7 +47,7 @@ p {
     text-align: justify;
     font-weight: normal !important;
     text-justify: inter-word;
-    font-family: var(--robato);
+    font-family: var(--century);
 }
 
 hr {
@@ -53,21 +60,24 @@ hr {
 /* Resort page */
 
 .nav-item {
-    background-color: rgb(50, 95, 58);
     margin: 0px 1px 0px 0px;
 }
 
 .active,
 .nav-item:hover {
-    background-color: rgb(48, 113, 156);
+    background-color: rgb(67, 124, 79);
 }
 
 .nav-link {
-    color: white;
+    color: black;
 }
 
 .nav-link:hover {
     color: white;
+}
+
+.nav-tabs .content ul {
+    padding-bottom: 1rem;
 }
 
 .collapsible {
@@ -83,7 +93,11 @@ hr {
 }
 
 .collapsible:hover {
-    background-color: rgb(48, 113, 156);
+    background-color: rgb(94, 150, 106);
+}
+
+.tab-pane .active {
+    background-color: rgb(94, 150, 106);
 }
 
 .content {
@@ -100,7 +114,9 @@ hr {
     margin-right: 3%;
 }
 
-.con-img {}
+.con-img {
+    width: 100%;
+}
 
 
 /* Weddings page */
