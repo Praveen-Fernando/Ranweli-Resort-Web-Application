@@ -54,7 +54,7 @@
                     <a href="profile.html" class="list-group-item ">Activities</a>
                 </li>
                 <li class="page_item page-item-2">
-                    <a href="wishlist.html" class="list-group-item">The Resort</a>
+                    <a href="resort.html" class="list-group-item">The Resort</a>
                 </li>
                 <li class="page_item page-item-2">
                     <a href="wishlist.html" class="list-group-item">Accommodation</a>
@@ -66,7 +66,7 @@
                     <a href="bids.html" class="list-group-item">Ayurveda</a>
                 </li>
                 <li class="page_item page-item-2">
-                    <a href="dashboard.html" class="list-group-item">Weedings</a>
+                    <a href="weddings.html" class="list-group-item">Weedings</a>
                 </li>
                 <li class="page_item page-item-2">
                     <a href="dashboard.html" class="list-group-item">Reservations</a>
@@ -78,7 +78,7 @@
                     <a href="dashboard.html" class="list-group-item">Awards & Recognition</a>
                 </li>
                 <li class="page_item page-item-2">
-                    <a href="dashboard.html" class="list-group-item">Gallery</a>
+                    <a href="gallery.html" class="list-group-item">Gallery</a>
                 </li>
                 <li class="page_item page-item-2">
                     <a href="dashboard.html" class="list-group-item">What's New</a>
@@ -98,113 +98,110 @@
     </nav>
 
     <!--Main Content-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-12 text-center m-0 pt-3 pb-4">
-                <h1>Payments</h1>
-                <hr>
-            </div>
-        </div>
+    <div class="pt-2 pb-4">
+        <h1 class="text-center">Payment</h1>
+        <hr>
     </div>
-    <div class="container col-md-6 offset-md-3 border pt-5 pr-5 pl-5 pb-4">
-        <section class="module m-0 pb-3">
-            <span class="loadable-icon-and-text">
+    <div class="row">
+        <div class="container col-md-6 offset-md-3 border pt-5 pr-5 pl-5 pb-4">
+            <section class="module m-0 pb-3">
+                <span class="loadable-icon-and-text">
                 <span class="LOCK loadable-icon-and-text-icon">
                     <span class> <i class="fa fa-lock" aria-hidden="true"></i>
                         Your payment is secure. Your card details will not be shared.
                     </span>
-            </span>
-            </span>
-        </section>
+                </span>
+                </span>
+            </section>
 
-        <form action="#" method="post">
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-6">
-                    <div class="form">
-                        <input type="tel" name="cardNumber" id="cardNumber" class="cardNumber" required onchange="equals()" />
-                        <label for="cardNumber" class="label-name">
-                                            <span class="content-name">Card number</span>
-                                        </label>
-                        <div class="card-imgs">
-                            <picture id="pic1" style="display: none;">
-                                <img src="images/paymets/visa.png" alt="visa">
-                            </picture>
-                            <picture id="pic2" style="display: none;">
-                                <img src="images/paymets/master.png" alt="visa">
-                            </picture>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <div class="form">
-                        <div>
-                            <input type="tel" name="expData" id="expData" class="expDate" onfocus="this.placeholder = 'MM/YY'" onblur="this.placeholder=''" required/>
-                            <label for="expData" class="label-name">
-                                                <span class="content-name">Expiration date</span>
-                                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="form">
-                        <div>
-                            <div class="info-box">
-                                <i class="fa fa-info-circle info" aria-hidden="true"></i>
-                            </div>
-
-                            <input type="tel" name="secCode" id="secCode" class="secCode" onfocus="this.placeholder = '3 or 4 digits'" onblur="this.placeholder=''" required/>
-                            <label for="secCode" class="label-name">
-                                                <span class="content-name">Security code</span>
-                                            </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6 col-sm-12">
-                    <div class="form">
-                        <div>
-                            <input type="tel" name="firstName" id="firstName" required/>
-                            <label for="firstName" class="label-name">
-                                            <span class="content-name">First name</span>
-                                        </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="form">
-                        <div>
-                            <input type="tel" name="lastName" id="lastName" required/>
-                            <label for="lastName" class="label-name">
-                                            <span class="content-name">Last name</span>
-                                        </label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <input class="rounded-0" type="checkbox" name="rememberMe" id="rememberMe">
-                    <label for="rememberMe">Remeber this card for future use</label>
-                </div>
-            </div>
-            <br>
-            <div class="buttons">
+            <form action="#" method="post">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <button class="btn btn-primary border-2 rounded-0" type="submit">Done</button>
-                        <button class="btn border-primary border-2 rounded-0" type="reset">Cancel</button>
+                        <div class="form">
+                            <input type="tel" name="cardNumber" id="cardNumber" class="cardNumber" required onchange="equals()" />
+                            <label for="cardNumber" class="label-name">
+                                            <span class="content-name">Card number</span>
+                                        </label>
+                            <div class="card-imgs">
+                                <picture id="pic1" style="display: none;">
+                                    <img src="images/paymets/visa.png" alt="visa">
+                                </picture>
+                                <picture id="pic2" style="display: none;">
+                                    <img src="images/paymets/master.png" alt="visa">
+                                </picture>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </form>
-        <br>
-    </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form">
+                            <div>
+                                <input type="tel" name="expData" id="expData" class="expDate" onfocus="this.placeholder = 'MM/YY'" onblur="this.placeholder=''" required/>
+                                <label for="expData" class="label-name">
+                                                <span class="content-name">Expiration date</span>
+                                            </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form">
+                            <div>
+                                <div class="info-box">
+                                    <i class="fa fa-info-circle info" aria-hidden="true"></i>
+                                </div>
 
+                                <input type="tel" name="secCode" id="secCode" class="secCode" onfocus="this.placeholder = '3 or 4 digits'" onblur="this.placeholder=''" required/>
+                                <label for="secCode" class="label-name">
+                                                <span class="content-name">Security code</span>
+                                            </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form">
+                            <div>
+                                <input type="tel" name="firstName" id="firstName" required/>
+                                <label for="firstName" class="label-name">
+                                            <span class="content-name">First name</span>
+                                        </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="form">
+                            <div>
+                                <input type="tel" name="lastName" id="lastName" required/>
+                                <label for="lastName" class="label-name">
+                                            <span class="content-name">Last name</span>
+                                        </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <input class="rounded-0" type="checkbox" name="rememberMe" id="rememberMe">
+                        <label for="rememberMe">Remeber this card for future use</label>
+                    </div>
+                </div>
+                <br>
+                <div class="buttons">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <button class="btn btn-primary border-2 rounded-0" type="submit">Done</button>
+                            <button class="btn border-primary border-2 rounded-0" type="reset">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <br>
+        </div>
+    </div>
     <br>
 
 
