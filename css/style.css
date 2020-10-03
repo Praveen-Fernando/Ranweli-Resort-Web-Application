@@ -63,11 +63,6 @@ hr {
     margin: 0px 1px 0px 0px;
 }
 
-.active,
-.nav-item:hover {
-    background-color: rgb(67, 124, 79);
-}
-
 .nav-link {
     color: black;
 }
@@ -108,7 +103,7 @@ hr {
     background-color: #ffffff;
 }
 
-.fa-sort-down {
+.fa-caret-down {
     position: absolute;
     right: 0;
     margin-right: 3%;
@@ -131,11 +126,11 @@ th {
 }
 
 #table1 {
-    background-color: rgb(255, 223, 106);
+    background-color: rgba(224, 223, 217, 0.281);
 }
 
 #table2 {
-    background-color: rgb(243, 203, 72);
+    background-color: rgba(224, 223, 217, 0.281);
 }
 
 .note {
@@ -230,10 +225,6 @@ form input:valid+.label-name::after {
     position: absolute;
     right: 0;
     top: 0;
-}
-
-img {
-    width: 40px;
 }
 
 #pic1 {

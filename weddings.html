@@ -16,79 +16,195 @@
     <!-- Style sheet -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/index-css/style.css">
+
+    <!--Links for header and footer-->
+    <link rel="stylesheet" href="header_footer/css/bootstrap.min.css">
+    <link rel="stylesheet" href="header_footer/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="header_footer/css/magnific-popup.css">
+    <link rel="stylesheet" href="header_footer/css/font-awesome.min.css">
+    <link rel="stylesheet" href="header_footer/css/themify-icons.css">
+    <link rel="stylesheet" href="header_footer/css/nice-select.css">
+    <link rel="stylesheet" href="header_footer/css/flaticon.css">
+    <link rel="stylesheet" href="header_footer/css/gijgo.css">
+    <link rel="stylesheet" href="header_footer/css/animate.css">
+    <link rel="stylesheet" href="header_footer/css/slicknav.css">
+    <link rel="stylesheet" href="header_footer/css/style.css">
+
     <style>
         body {
-            background-image: url("images/background/pic2.jpg");
+            /* background-image: url("images/background/pic2.jpg");*/
             background-repeat: no-repeat;
             background-size: 100%;
         }
+        
+        .navbar1 {
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        
+        .navbar1 :hover {
+            color: gray !important;
+        }
+        
+        .navbar1 div #bookBtn {
+            position: fixed;
+            right: 0;
+            margin-bottom: 5px;
+        }
+        
+        #bookBtn:hover {
+            color: rgba(255, 255, 255, 0.514) !important;
+        }
+        
+        li a.active {
+            background-color: transparent !important;
+        }
+        
+        p {
+            color: black;
+        }
     </style>
 
-    <title>Document</title>
+    <title>Ranweli</title>
 </head>
 
 <body>
-
-    <!--Header-->
-    <input type="checkbox" name="mobile-nav" id="mobile-nav" class="gaadiexp-check" onchange="this.blur()">
-    <label for="mobile-nav" class="gaadiexp white" tabindex="0"><span></span></label>
-    <nav class="header-nav">
-
-        <div class="menu" style="margin-left: -16px;">
-            <ul style="width: 267px; text-align: start;">
-
-                <li class="page_item page-item-2">
-                    <a href="index.php" class="list-group-item">Home</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="profile.html" class="list-group-item ">Activities</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="resort.html" class="list-group-item">The Resort</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="wishlist.html" class="list-group-item">Accommodation</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="interest.html" class="list-group-item">Environmental Policies</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="bids.html" class="list-group-item">Ayurveda</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="weddings.html" class="list-group-item">Weedings</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="dashboard.html" class="list-group-item">Reservations</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="bid-history.html" class="list-group-item">Our Partners</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="dashboard.html" class="list-group-item">Awards & Recognition</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="gallery.html" class="list-group-item">Gallery</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="dashboard.html" class="list-group-item">What's New</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="dashboard.html" class="list-group-item">Special Offers</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="dashboard.html" class="list-group-item">About us</a>
-                </li>
-                <li class="page_item page-item-2">
-                    <a href="dashboard.html" class="list-group-item">Contact Us</a>
-                </li>
-
-            </ul>
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active">Menu <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="Home.php">Home</a></li>
+                                                <li><a href="#">Activities</a></li>
+                                                <li><a href="resort.html">The Resort</a></li>
+                                                <li><a href="#">Accomodation</a></li>
+                                                <li><a href="#">Environmental Policies</a></li>
+                                                <li><a href="#">Ayurweda</a></li>
+                                                <li><a href="weddings.html">Weddings</a></li>
+                                                <li><a href="#">Reservations</a></li>
+                                                <li><a href="#">Our Partners</a></li>
+                                                <li><a href="#">Awards & Recognition</a></li>
+                                                <li><a href="gallery.html">Gallery</a></li>
+                                                <li><a href="#">What's New</a></li>
+                                                <li><a href="#">Special Offers</a></li>
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">Contact Us</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Accomodation</a></li>
+                                        <li><a href="#">Dining</a></li>
+                                        <li><a href="#">Offers</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="Home.php   ">
+                                    <img src="header_footer/img/1.png" width="90" height="90" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-4 d-none d-lg-block">
+                            <div class="book_room">
+                                <div class="socail_links">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-facebook-square"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="book_btn d-none d-lg-block">
+                                    <a href="#">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav>
+    </header>
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="slider_active owl-carousel">
+            <div class="single_slider d-flex align-items-center justify-content-center  slider_bg_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider_text text-center">
+                                <h3>Ranweli Resort</h3>
+                                <p>The Splendour of Nature</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider_text text-center">
+                                <h3>Ranweli Resort</h3>
+                                <p>The Splendour of Nature</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider_text text-center">
+                                <h3>Ranweli Resort</h3>
+                                <p>The Splendour of Nature</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="slider_text text-center">
+                                <h3>Ranweli Resort</h3>
+                                <p>The Splendour of Nature</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!--Main Content-->
-    <div class="pt-2 pb-4">
+    <div class="pt-5 pb-4">
         <h1 class="text-center">Weddings</h1>
         <hr>
     </div>
@@ -202,86 +318,120 @@
         </div>
     </div>
 
-    <!--footer starts from here-->
+    <!-- footer -->
     <footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-2 col-sm-12 text-center pt-5">
-                    <img src="images/index-imgs/download.jpg" class="h-50 w-75 p-0 m-0 col-sm-12 col-sm-2" alt="logo">
-                </div>
-
-                <div class="col-md-2">
-                    <h5 class="headin5_amrc col_white_amrc pt-5">Contact Ranweli</h5>
-                    <p><i class="fa fa-location-arrow"></i> Ranweli Holiday Village,</p>
-                    <p> Waikkal, Sri Lanka</p>
-                    <p><i class="fa fa-phone"></i> Phone: +94 31 2277359</p>
-                    <p><i class="fa fa fa-fax"></i> Fax: +94 31 2277358 </p>
-                    <p><i class="fa fa fa-envelope"></i> E-Mail: ranweli@slt.lk </p>
-                </div>
-
-                <div class="col-md-2 col-sm-12">
-                    <h5 class="headin5_amrc col_white_amrc pt-5">Facilities</h5>
-                    <!--headin5_amrc-->
-                    <ul class="footer_ul_amrc">
-                        <li>
-                            <p><i class="fas fa-check-circle"></i>Restaurant and Bars</p>
-                            <p><i class="fas fa-check-circle"></i> Sports Facilities</p>
-                            <p><i class="fas fa-check-circle"></i> Ayurvedic Centre</p>
-                            <p><i class="fas fa-check-circle"></i> Eco/Jewellery Shop</p>
-                            <p><i class="fas fa-check-circle"></i> Beachfront Pool</p>
-                            <p><i class="fas fa-check-circle"></i>Evening Entertainment</p>
-                        </li>
-
-                    </ul>
-                    <!--footer_ul_amrc ends here-->
-                </div>
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
 
 
-                <div class="col-md-2 col-sm-12">
-                    <h5 class="headin5_amrc col_white_amrc pt-5">Activities</h5>
-                    <!--headin5_amrc-->
-                    <ul class="footer_ul_amrc">
-                        <li>
-                            <p><i class="fas fa-running"></i>Bird Watching</p>
-                            <p><i class="fas fa-running"></i>Nature Walk</p>
-                            <p><i class="fas fa-running"></i>Cycling</p>
-                            <p><i class="fas fa-running"></i>ERiver Cruise</p>
-                            <p><i class="fas fa-running"></i>Tours Outside Ranweli</p>
-                            <p><i class="fas fa-running"></i>Craft Demonstrations</p>
-                            <p><i class="fas fa-running"></i>Butterfly Watchings</p>
-                        </li>
-
-                    </ul>
-                    <!--footer_ul_amrc ends here-->
-                </div>
-
-
-
-                <!-- Include the above in your HEAD tag -->
-
-                <div class="col-md-3 text-center mt-5 mr-1 ml-1 border">
-                    <p class="pt-5 col-md-12 col-sm-12 col-12 text-center" style="color: white; letter-spacing: 1px; font-size: 3em;">Newletter</p>
-                    <p>Subscribe to our weekly Newsletter and stay tuned.</p>
-                    <form action="#">
-                        <div class="form-group">
-                            <input class="form-control text-center" type="email" name="email" id="email" placeholder="your@email.com">
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                <a href="Home.php   ">
+                                    <img src="header_footer/img/RLogo.jpg" width="300" height="300" alt="">
+                                </a>
+                            </h3>
                         </div>
-                        <button class="btn btn-light  mb-5" type="submit">Subscribe Now!</button>
-                    </form>
+                    </div>
+
+
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget" style="position: absolute; right: -100px;">
+                            <h3 class="footer_title">
+                                Contact Ranweli
+                            </h3>
+                            <ul>
+                                <li><a href="#">Ranweli Holiday Village,Waikkal, Sri Lanka </a></li>
+                                <li><a href="#">Phone: +94 31 2277359</a></li>
+                                <li><a href="#">Fax: +94 31 2277358</a></li>
+                                <li><a href="#">E-Mail: ranweli@slt.lk</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget" style="position: absolute; right: -130px;">
+                            <h3 class="footer_title">
+                                Facilities
+                            </h3>
+                            <ul>
+                                <li><a href="#">Restaurant and Bars</a></li>
+                                <li><a href="#">Sports Facilities</a></li>
+                                <li><a href="#">Ayurvedic Centre</a></li>
+                                <li><a href="#">Eco/Jewellery Shop</a></li>
+                                <li><a href="#">Beachfront Pool</a></li>
+                                <li><a href="#">Evening Entertainment</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget" style="position: absolute; right: 18px;">
+                            <h3 class="footer_title">
+                                Facilities
+                            </h3>
+                            <ul>
+                                <li><a href="#">Bird Watching</a></li>
+                                <li><a href="#">Nature Walk</a></li>
+                                <li><a href="#">Cycling</a></li>
+                                <li><a href="#">River Cruise</a></li>
+                                <li><a href="#">Tours Outside Ranweli</a></li>
+                                <li><a href="#">Craft Demonstrations</a></li>
+                                <li><a href="#">Butterfly Watching</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </div>
 
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
 
-        <hr style="width: auto; background-color: white;">
-        <div class="container mt-5">
-            <ul class="foote_bottom_ul_amrc ">
-                <li>
-                    <p class="text-center " style="text-align: center; ">Copyright © Ranweli Holiday Village 2020. All Rights Reserved.</p>
-                </li>
-            </ul>
+                    <div class="col-md-12 text-center">
+                        <p class="copy_right">Copyright © Ranweli Holiday Village 2020. All Rights Reserved.</p>
+                    </div>
+
+
+                </div>
+            </div>
         </div>
     </footer>
+
+    <!-- JS here -->
+    <script src="header_footer/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="header_footer/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="header_footer/js/popper.min.js"></script>
+    <script src="header_footer/js/bootstrap.min.js"></script>
+    <script src="header_footer/js/owl.carousel.min.js"></script>
+    <script src="header_footer/js/isotope.pkgd.min.js"></script>
+    <script src="header_footer/js/ajax-form.js"></script>
+    <script src="header_footer/js/waypoints.min.js"></script>
+    <script src="header_footer/js/jquery.counterup.min.js"></script>
+    <script src="header_footer/js/imagesloaded.pkgd.min.js"></script>
+    <script src="header_footer/js/scrollIt.js"></script>
+    <script src="header_footer/js/jquery.scrollUp.min.js"></script>
+    <script src="header_footer/js/wow.min.js"></script>
+    <script src="header_footer/js/nice-select.min.js"></script>
+    <script src="header_footer/js/jquery.slicknav.min.js"></script>
+    <script src="header_footer/js/jquery.magnific-popup.min.js"></script>
+    <script src="header_footer/js/plugins.js"></script>
+    <script src="header_footer/js/gijgo.min.js"></script>
+    <script src="header_footer/js/contact.js"></script>
+    <script src="header_footer/js/jquery.ajaxchimp.min.js"></script>
+    <script src="header_footer/js/jquery.form.js"></script>
+    <script src="header_footer/js/jquery.validate.min.js"></script>
+    <script src="header_footer/js/mail-script.js"></script>
+    <script src="header_footer/js/main.js"></script>
+
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
