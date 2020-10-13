@@ -65,12 +65,157 @@
         p {
             color: black;
         }
+        
+        .background {
+            padding: 0 25px 25px;
+            position: relative;
+            width: 100%;
+        }
+        
+        @media (min-width: 900px) {
+            .background {
+                padding: 0 0 25px;
+            }
+        }
+        
+        .container {
+            margin: 0 auto;
+            padding: 50px 0 0;
+            max-width: 960px;
+            width: 100%;
+        }
+        
+        .panel {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 15px 25px;
+            width: 100%;
+            z-index: 10;
+        }
+        
+        .pricing-table {
+            box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.08), 0px 20px 31px 3px rgba(0, 0, 0, 0.09), 0px 8px 20px 7px rgba(0, 0, 0, 0.02);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        @media (min-width: 900px) {
+            .pricing-table {
+                flex-direction: row;
+            }
+        }
+        
+        .pricing-table * {
+            text-align: center;
+            text-transform: uppercase;
+        }
+        
+        .pricing-plan {
+            border-bottom: 1px solid #e1f1ff;
+            padding: 25px;
+        }
+        
+        .pricing-plan:last-child {
+            border-bottom: none;
+        }
+        
+        @media (min-width: 900px) {
+            .pricing-plan {
+                border-bottom: none;
+                border-right: 1px solid #e1f1ff;
+                flex-basis: 100%;
+                padding: 25px 50px;
+            }
+            .pricing-plan:last-child {
+                border-right: none;
+            }
+        }
+        
+        .pricing-img {
+            margin-bottom: 25px;
+            max-width: 100%;
+        }
+        
+        .pricing-img- {
+            margin-top: 10%;
+            margin-bottom: 20%;
+            max-width: 100%;
+        }
+        
+        .pricing-header {
+            color: #888;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        
+        .pricing-features {
+            color: #016FF9;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin: 50px 0 25px;
+        }
+        
+        .pricing-features-item {
+            border-top: 1px solid #e1f1ff;
+            font-size: 12px;
+            line-height: 1.5;
+            padding: 15px 0;
+        }
+        
+        .pricing-features-item:last-child {
+            border-bottom: 1px solid #e1f1ff;
+        }
+        
+        .pricing-price {
+            color: #016FF9;
+            display: block;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        
+        .pricing-button {
+            border: 1px solid #9dd1ff;
+            border-radius: 10px;
+            color: #348EFE;
+            display: inline-block;
+            margin: 25px 0;
+            padding: 15px 35px;
+            text-decoration: none;
+            transition: all 150ms ease-in-out;
+        }
+        
+        .pricing-button:hover,
+        .pricing-button:focus {
+            background-color: #e1f1ff;
+        }
+        
+        .pricing-button.is-featured {
+            background-color: #48aaff;
+            color: #fff;
+        }
+        
+        .pricing-button.is-featured:hover,
+        .pricing-button.is-featured:active {
+            background-color: #269aff;
+        }
+        
+        .pricing-plan {
+            opacity: 1;
+            transition: opacity 250ms ease-in;
+        }
+        
+        .pricing-plan.appear {
+            opacity: 1;
+        }
     </style>
 
     <title>Ranweli</title>
 </head>
 
 <body>
+
+
+
     <!-- header-start -->
     <header>
         <div class="header-area ">
@@ -226,119 +371,63 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <table class="table table-borderless text-center" id="table1">
-                    <thead>
-                        <tr>
-                            <th scope="col">Standard Foreign Wedding Package (Rates in $)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Registration, stamp fees and translation of marriage documents</td>
-                        </tr>
-                        <tr>
-                            <td>Decorated stand (Poruwa) and venue; decorated ferry</td>
-                        </tr>
-                        <tr>
-                            <td>Dancers, drummers and singers</td>
-                        </tr>
-                        <tr>
-                            <td>Bouquet for bride, button hole for groom. Fresh flowers from our garden or flowers from a florist</td>
-                        </tr>
-                        <tr>
-                            <td>Wedding cake</td>
-                        </tr>
-                        <tr>
-                            <td>Traditional Sri Lankan sweets, fruits and drinks</td>
-                        </tr>
-                        <tr>
-                            <td>Special dinner with a bottle of wine on board raft (ferry dinner for the couple)</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h5>Total cost of wedding package $700</h5>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-md-6">
-                <table class="table table-borderless text-center" id="table2">
-                    <thead>
-                        <tr>
-                            <th scope="col">Extras</th>
-                            <th scope="col">Rates ($)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Photographs - 36 ( 4 R size )</td>
-                            <td> 120</td>
-                        </tr>
-                        <tr>
-                            <td>Edited 60 minute video</td>
-                            <td>230</td>
-                        </tr>
-                        <tr>
-                            <td>Traditional Wedding Outfits for Bride & Groom</td>
-                            <td>290</td>
-                        </tr>
-                        <tr>
-                            <td>Hiring of traditional jewellery for the Bride</td>
-                            <td>65</td>
-                        </tr>
-                        <tr>
-                            <td>Hair dressing and make up</td>
-                            <td>105</td>
-                        </tr>
-                        <tr>
-                            <td>Wedding lunch/dinner for guests (per head)</td>
-                            <td>28</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 note p-4">
-                            <ul>
-                                <li>
-                                    The above rates are inclusive of government taxes and service charges.
-                                </li>
-                                <li>
-                                    All rates are subject to change.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+    <div class="background">
+        <div class="container">
+            <div class="panel pricing-table">
+
+                <div class="pricing-plan">
+                    <img src="images/weddings.png" alt="" class="pricing-img">
+                    <h2 class="pricing-header">Standard Foreign Wedding Package</h2>
+                    <ul class="pricing-features">
+                        <li class="pricing-features-item">Registration, stamp fees and translation of marriage documents</li>
+                        <li class="pricing-features-item">Dancers, drummers and singers</li>
+                        <li class="pricing-features-item">Bouquet for bride, button hole for groom. Fresh flowers from our garden or flowers from a florist</li>
+                        <li class="pricing-features-item">Wedding cake</li>
+                        <li class="pricing-features-item">Traditional Sri Lankan sweets, fruits and drinks</li>
+                        <li class="pricing-features-item">Special dinner with a bottle of wine on board raft (ferry dinner for the couple)</li>
+                    </ul>
+                    <span class="pricing-price">$700</span>
                 </div>
+
+                <div class="pricing-plan">
+                    <img src="https://www.transparentpng.com/thumb/wedding/photos-wedding-17.png" alt="" class="pricing-img-">
+                    <h2 class="pricing-header">Extras</h2>
+                    <ul class="pricing-features">
+                        <li class="pricing-features-item">Photographs - 36 ( 4 R size ) <br> $120</li>
+                        <li class="pricing-features-item">Edited 60 minute video <br> $230</li>
+                        <li class="pricing-features-item">Traditional Wedding Outfits for Bride & Groom <br> $290</li>
+                        <li class="pricing-features-item">Hiring of traditional jewellery for the Bride <br> $65</li>
+                        <li class="pricing-features-item">Hair dressing and make up <br> $150</li>
+                        <li class="pricing-features-item">Wedding lunch/dinner for guests (per head) <br> $28</li>
+                    </ul>
+                    <span class="pricing-price">$883</span>
+                </div>
+
             </div>
         </div>
     </div>
 
     <!-- footer -->
-    <footer class="footer">
-        <div class="footer_top">
+    <footer class="footer_">
+        <div>
             <div class="container">
                 <div class="row">
 
 
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                <a href="Home.php   ">
-                                    <img src="header_footer/img/RLogo.jpg" width="300" height="300" alt="">
+                    <div class="col-md-3 col-sm-12 pt-5 text-center">
+                        <div>
+                            <h3 class="mb-4">
+                                <a href="Home.php">
+                                    <img src="header_footer/img/RLogo.jpg" alt="">
                                 </a>
                             </h3>
                         </div>
                     </div>
 
 
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget" style="position: absolute; right: -100px;">
-                            <h3 class="footer_title">
+                    <div class="col-md-3 col-sm-12 pt-5 text-center">
+                        <div>
+                            <h3 class="mb-4">
                                 Contact Ranweli
                             </h3>
                             <ul>
@@ -351,9 +440,9 @@
                     </div>
 
 
-                    <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget" style="position: absolute; right: -130px;">
-                            <h3 class="footer_title">
+                    <div class="col-md-3 col-sm-12 pt-5 text-center">
+                        <div>
+                            <h3 class="mb-4">
                                 Facilities
                             </h3>
                             <ul>
@@ -369,9 +458,9 @@
 
 
 
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="footer_widget" style="position: absolute; right: 18px;">
-                            <h3 class="footer_title">
+                    <div class="col-md-3 col-sm-12 pt-5 text-center">
+                        <div>
+                            <h3 class="mb-4">
                                 Facilities
                             </h3>
                             <ul>
@@ -393,10 +482,9 @@
 
         <div class="copy-right_text">
             <div class="container">
-                <div class="footer_border"></div>
                 <div class="row">
 
-                    <div class="col-md-12 text-center">
+                    <div class="col-md-12 text-center mt-4">
                         <p class="copy_right">Copyright © Ranweli Holiday Village 2020. All Rights Reserved.</p>
                     </div>
 
@@ -439,6 +527,32 @@
 
 
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        const faders = document.querySelectorAll('.pricing-plan');
+        const appearOptions = {
+            threshold: 1,
+            rootMargin: "0px 0px -100px 0px"
+        };
+        const appearOnScroll = new IntersectionObserver(function(
+                entries,
+                appearOnScroll
+            ) {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) {
+                        return;
+                    } else {
+                        entry.target.classList.add("appear");
+                        appearOnScroll.unobserve(entry.target);
+                    }
+                });
+            },
+            appearOptions);
+
+        faders.forEach(fader => {
+            appearOnScroll.observe(fader);
+        });
+    </script>
 </body>
 
 </html>

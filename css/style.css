@@ -7,7 +7,7 @@
     --light-gray: #;
     --text-color: black;
     --josefin: "Josefin", sans-serif;
-    --century: "Century gothic";
+    --century: "Century Gothic";
     --gugi: "Gugi", cursive;
     --sofia: "Sofia", cursive;
 }
@@ -239,9 +239,10 @@ form input:valid+.label-name::after {
     color: #FFF;
 }
 
-.footer {
+.footer_ {
     width: 100%;
-    background-color: #212529;
+    color: white;
+    background-color: black;
     min-height: 250px;
     padding-bottom: 25px;
 }
@@ -264,6 +265,11 @@ li,
 h2 {
     padding: 0;
     margin: 0;
+}
+
+.footer_ li a,
+.footer_ h3 {
+    color: #BABABA;
 }
 
 @media all and (max-width:30em) {
