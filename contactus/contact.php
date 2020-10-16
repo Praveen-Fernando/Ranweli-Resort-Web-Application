@@ -57,12 +57,12 @@
                                                 <li><a href="../Payments/gallery.html">Gallery</a></li>
                                                 <li><a href="#">What's New</a></li>
                                                 <li><a href="../Registration/offers.php">Special Offers</a></li>
-                                                <li><a href="Booking/HTML/AboutUs.php">About Us</a></li>
+                                                <li><a href="../Booking/HTML/AboutUs.php">About Us</a></li>
                                                 <li><a href="../contactus/contact.php">Contact Us</a></li>
                                             </ul>    
                                         </li>
                                         <li><a href="../Booking/HTML/room-details.php">Accomodation</a></li>
-                                        <li><a href="#">Dining</a></li>
+                                        <li><a href="../contactus/contact.php">Contact Us</a></li>
                                         <li><a href="../Registration/offers.php">Offers</a></li>
                                     </ul>
                                 </nav>
@@ -97,7 +97,7 @@
                                     </ul>
                                 </div>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a href="#">Book Now</a>
+                                    <a href="../Registration/userReg.php">Book Now</a>
                                 </div>
                             </div>
                         </div>

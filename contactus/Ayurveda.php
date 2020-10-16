@@ -62,7 +62,7 @@
                                             </ul>    
                                         </li>
                                         <li><a href="../Booking/HTML/room-details.php">Accomodation</a></li>
-                                        <li><a href="#">Dining</a></li>
+                                        <li><a href="../contactus/contact.php">Contact Us</a></li>
                                         <li><a href="../Registration/offers.php">Offers</a></li>
                                     </ul>
                                 </nav>

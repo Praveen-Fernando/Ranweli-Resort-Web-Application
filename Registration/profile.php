@@ -76,7 +76,7 @@
                                             </ul>
                                         </li>
                                         <li><a href="../Booking/HTML/room-details.php">Accomodation</a></li>
-                                        <li><a href="#">Dining</a></li>
+                                        <li><a href="../contactus/contact.php">Contact Us</a></li>
                                         <li><a href="../Registration/offers.php">Offers</a></li>
                                     </ul>
                                 </nav>
@@ -111,7 +111,7 @@
                                     </ul>
                                 </div>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a href="booking.php">Book Now</a>
+                                    <a href="../Booking/HTML/booking.php">Book Now</a>
 
                                 </div>
                             </div>

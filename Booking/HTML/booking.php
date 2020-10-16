@@ -63,7 +63,7 @@
                                             </ul>    
                                         </li>
                                         <li><a href="Booking/HTML/room-details.php">Accomodation</a></li>
-                                        <li><a href="#">Dining</a></li>
+                                        <li><a href="../../contactus/contact.php">Contact Us</a></li>
                                         <li><a href="../../Registration/offers.php">Offers</a></li>
                                     </ul>
                                 </nav>
@@ -167,7 +167,7 @@
     <!-- slider_area_end -->
 
     <h1 class="text-center" style="margin-top:30px">Book Now</h1>
-			<form class="needs-validation"style="margin-top:30px;margin-bottom: 30px;" novalidate>
+			<form action="../../Payments/payments.html" class="needs-validation"style="margin-top:30px;margin-bottom: 30px;" novalidate>
 				<div class="container" >
 					<div class="form-group row">
 						<label for="IN-DATE" class="col-sm-3 col-form-label ">IN-DATE</label>

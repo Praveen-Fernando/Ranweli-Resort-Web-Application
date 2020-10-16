@@ -63,7 +63,7 @@
                                             </ul>    
                                         </li>
                                         <li><a href="../Booking/HTML/room-details.php">Accomodation</a></li>
-                                        <li><a href="#">Dining</a></li>
+                                        <li><a href="../contactus/contact.php">Contact Us</a></li>
                                         <li><a href="../Registration/offers.php">Offers</a></li>
                                     </ul>
                                 </nav>
@@ -179,7 +179,7 @@
         <p class="lead text-muted mb-0" style="font-size: initial; margin-top: 25px; font-weight: 700;">Ranweli offers 4 types of accommodation all constructed with local building materials, in a unique ethnic style that resembles a typical Sri Lankan village.16 Superior Deluxe Sea View Bungalows, 40 Deluxe Sea View Bungalows,  10 Standard Sea View Bungalows, 04 River View Bungalows, 17 Standard Rooms with 01 Suite provide comfortable accommodation.The interior décor includes terra cotta pots, brass lamps, artifacts produced by local craftsmen and hand-made local fabric.</p>
          <br><br>
         <h1 class="jumbotron-heading" style="font-size:x-large;"><strong>EXPLORE OUR GRAND<br>FACILITIES</strong></h1>
-        <p class="lead text-muted mb-0" style="font-size: initial; font-weight: 700;">The connecting walkways open out into beautifully tended palm gardens leading to the heart of the resort. Architecturally and aesthetically the construction and furnishing of the village blends western standards of comfort and with the traditions of indigenous Sri Lankan culture & for <a href="https://www.w3schools.com/" style="color: #007bff">More info.</a></p>
+        <p class="lead text-muted mb-0" style="font-size: initial; font-weight: 700;">The connecting walkways open out into beautifully tended palm gardens leading to the heart of the resort. Architecturally and aesthetically the construction and furnishing of the village blends western standards of comfort and with the traditions of indigenous Sri Lankan culture & for <a href="../Payments/resort.html" style="color: #007bff">More info.</a></p>
         <br><br>
 <div class="persons" style="margin-top: -88px;"> 
 <div class="person" style="  float: left;
@@ -242,7 +242,7 @@
     <img src="img/award/awards_list6.jpg" alt="Lights" style="width:58%">
   </div>
 </div>
-<a href="https://www.w3schools.com/" style="font-size: small; color:blue; ">Click here for more information</a>
+<a href="../Reservation/Awards.php" style="font-size: small; color:blue; ">Click here for more information</a>
     </div>
 
 
