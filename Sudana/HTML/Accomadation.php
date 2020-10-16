@@ -53,7 +53,7 @@
                                             <li><a href="../Ranweli/index.php">Home</a></li>
                                                 <li><a href="../Reservation/Activities.php">Activities</a></li>
                                                 <li><a href="../../resort.html">The Resort</a></li>
-                                                <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
+                                                <li><a href="Accomadation.php">Accomodation</a></li>
                                                 <li><a href="../contactus/Environmental.php">Environmental Policies</a></li>
                                                 <li><a href="../contactus/Ayurveda.php">Ayurweda</a></li>
                                                 <li><a href="../../weddings.html">Weddings</a></li>
@@ -63,11 +63,11 @@
                                                 <li><a href="../../gallery.html">Gallery</a></li>
                                                 <li><a href="#">What's New</a></li>
                                                 <li><a href="../Ranweli/offers.php">Special Offers</a></li>
-                                                <li><a href="../Sudana/HTML/AboutUs.php">About Us</a></li>
+                                                <li><a href="AboutUs.php">About Us</a></li>
                                                 <li><a href="../contactus/contact.php">Contact Us</a></li>
                                             </ul>    
                                         </li>
-                                        <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
+                                        <li><a href="Accomadation.php">Accomodation</a></li>
                                         <li><a href="#">Dining</a></li>
                                         <li><a href="../Ranweli/offers.php">Offers</a></li>
                                     </ul>
@@ -103,7 +103,7 @@
                                     </ul>
                                 </div>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a href="#">Book Now</a>
+                                    <a href="../../Ranweli/userReg.php">Book Now</a>
                                 </div>
                             </div>
                         </div>

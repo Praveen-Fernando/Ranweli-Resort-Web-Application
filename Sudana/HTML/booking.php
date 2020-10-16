@@ -98,7 +98,7 @@
                                     </ul>
                                 </div>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a href="#">Book Now</a>
+                                    <a href="../../Ranweli/userReg.php">Book Now</a>
                                 </div>
                             </div>
                         </div>
