@@ -24,8 +24,22 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style1.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
+<!--     <!-- <link rel="stylesheet" href="css/responsive.css"> 
+    <style type="text/css">
+        form:before {
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+    border-radius: 10px;
+}
+    </style> -->
 </head>
 
 <body>
@@ -41,37 +55,37 @@
                     <div class="row align-items-center no-gutters">
                         <div class="col-xl-5 col-lg-6">
                             <div class="main-menu  d-none d-lg-block">
-                                <nav>
+                            <nav>
                                     <ul id="navigation">
                                         <li><a class="active">Menu <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="index.php">Home</a></li>
+                                                <li><a href="../Registration/index.php">Home</a></li>
                                                 <li><a href="../Reservation/Activities.php">Activities</a></li>
-                                                <li><a href="../resort.html">The Resort</a></li>
-                                                <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
+                                                <li><a href="../Payments/resort.html">The Resort</a></li>
+                                                <li><a href="../Booking/HTML/Accomadation.php">Accomodation</a></li>
                                                 <li><a href="../contactus/Environmental.php">Environmental Policies</a></li>
                                                 <li><a href="../contactus/Ayurveda.php">Ayurweda</a></li>
-                                                <li><a href="../weddings.html">Weddings</a></li>
+                                                <li><a href="../Payments/weddings.html">Weddings</a></li>
                                                 <li><a href="../Reservation/Reservation.php">Reservations</a></li>
-                                                <li><a href="partners.php">Our Partners</a></li>
+                                                <li><a href="../Registration/partners.php">Our Partners</a></li>
                                                 <li><a href="../Reservation/Awards.php">Awards & Recognition</a></li>
-                                                <li><a href="../gallery.html">Gallery</a></li>
+                                                <li><a href="../Payments/gallery.html">Gallery</a></li>
                                                 <li><a href="#">What's New</a></li>
-                                                <li><a href="offers.php">Special Offers</a></li>
-                                                <li><a href="../Sudana/HTML/AboutUs.php">About Us</a></li>
+                                                <li><a href="../Registration/offers.php">Special Offers</a></li>
+                                                <li><a href="../Booking/HTML/AboutUs.php">About Us</a></li>
                                                 <li><a href="../contactus/contact.php">Contact Us</a></li>
-                                            </ul>    
+                                            </ul>
                                         </li>
-                                        <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
+                                        <li><a href="../Booking/HTML/room-details.php">Accomodation</a></li>
                                         <li><a href="#">Dining</a></li>
-                                        <li><a href="offers.php">Offers</a></li>
+                                        <li><a href="../Registration/offers.php">Offers</a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
-                                <a href="../Ranweli/index.php">
+                                <a href="index.php   ">
                                     <img src="img/1.png"  width="90" height="90" alt="">
                                 </a>
                             </div>
@@ -81,7 +95,7 @@
                                 <div class="socail_links">
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/Ranweli.Holiday.Village">
+                                            <a href="#">
                                                 <i class="fa fa-facebook-square"></i>
                                             </a>
                                         </li>
@@ -91,14 +105,15 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.instagram.com/ranweli.holiday.village/?hl=en">
+                                            <a href="#">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a href="../Ranweli/userReg.php">Book Now</a>
+                                    <a href="userReg.php">Register</a>
+                                    <a href="login.php">Login</a>
                                 </div>
                             </div>
                         </div>
@@ -113,9 +128,9 @@
     <!-- header-end -->
 
     <!-- slider_area_start -->
-    <div class="slider_area">
-        <div class="slider_active owl-carousel">
-            <div class="single_slider d-flex align-items-center justify-content-center  slider_bg_1">
+    <div class="slider_area" >
+        <div class="slider_active owl-carousel"style="height: 55vh;">
+            <div class="single_slider d-flex align-items-center justify-content-center  slider_bg_1" >
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -127,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2" >
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -139,7 +154,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
+            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1" >
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -151,7 +166,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2" >
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -164,100 +179,129 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- slider_area_end -->
+    </div> 
+<!--     <!-- slider_area_end-->
 
 
 
-<section class="jumbotron text-center" style="margin-top: -65px;">
-    <div class="container">
-        <h1 class="jumbotron-heading" style="font-size:x-large; margin-top: 31px;"><strong>ESCAPE TO PARADISE<br>WELCOME TO THE RANWELI HOLIDAY VILLAGE</strong></h1>
-        <p class="lead text-muted mb-0" style="font-size: initial; font-weight: 700;">Ranweli’s architecture blends with the unique and rich natural environment. The serene and idyllic location has been fully utilized in the layout of the land, featuring indigenous flora and fauna,and borders the wide sandy beach on one side, and the river on the other.The land was originally a coconut plantation surrounded by wetlands mainly mangroves. In conceptualizing Ranweli, the architects used the spacing of the rows of the coconut trees (known as the coconut grid by Agriculturists) as the discipline for the design. The bungalows, central areas and facilities were built by removing the minimum number of coconut trees. For each bungalow constructed, only one tree was removed and the tree trunks were used to construct the pillars.</p>
-         <br><br>
-        <h1 class="jumbotron-heading" style="font-size:x-large;"><strong>STAY IN DELIGHTFUL SERENITY<br>ACCOMMODATION</strong></h1>
-        <?php include "./slideshow.html" ?>
-        <p class="lead text-muted mb-0" style="font-size: initial; margin-top: 25px; font-weight: 700;">Ranweli offers 4 types of accommodation all constructed with local building materials, in a unique ethnic style that resembles a typical Sri Lankan village.16 Superior Deluxe Sea View Bungalows, 40 Deluxe Sea View Bungalows,  10 Standard Sea View Bungalows, 04 River View Bungalows, 17 Standard Rooms with 01 Suite provide comfortable accommodation.The interior décor includes terra cotta pots, brass lamps, artifacts produced by local craftsmen and hand-made local fabric.</p>
-         <br><br>
-        <h1 class="jumbotron-heading" style="font-size:x-large;"><strong>EXPLORE OUR GRAND<br>FACILITIES</strong></h1>
-        <p class="lead text-muted mb-0" style="font-size: initial; font-weight: 700;">The connecting walkways open out into beautifully tended palm gardens leading to the heart of the resort. Architecturally and aesthetically the construction and furnishing of the village blends western standards of comfort and with the traditions of indigenous Sri Lankan culture & for <a href="https://www.w3schools.com/" style="color: #007bff">More info.</a></p>
-        <br><br>
-<div class="persons" style="margin-top: -88px;"> 
-<div class="person" style="  float: left;
-  width: 24%;
-  padding: 0px;">
-  <img src="img/facility/fac1.jpg" alt="">
-    <div class="overlay">
-      <h3>Restaurant and Bars</h3>
-    </div>
-</div>
-    
-  <div class="person" style="  float: left;
-  width: 24%;
-  padding: 0px;">
-  <img src="img/facility/fac2.jpg" alt="">
-    <div class="overlay">
-      <h3>Sports Facilities</h3>
-    </div>
-</div>
+<!-- <img src="img/reg1.jpg" alt="Girl in a jacket" style=" width: 100%; margin-top: 340px; "> -->
   
-  <div class="person" style="  float: left;
-  width: 24%;
-  padding: 0px;">
-  <img src="img/facility/fac3.jpg" alt="">
-    <div class="overlay">
-      <h3>Ayurveda</h3>
-    </div>
-</div>
-  <div class="person" style="  float: right;
-  width: 22%;
-  padding: 0px;">
-  <img src="img/facility/fac4.jpg" alt="">
-    <div class="overlay">
-      <h3>Pool</h3>
-    </div>
-</div>
-  
-  </div> 
-  <br>
-<h1 class="jumbotron-heading" style="font-size:x-large; margin-top: -103px;"><strong>Our Latest Achievement</strong></h1>
 
-<!-- The four columns -->
-<div class="row">
-  <div class="column">
-    <img src="img/award/awards_list1.jpg" alt="Nature" style="width:60%">
-  </div>
-  <div class="column">
-    <img src="img/award/awards_list2.jpg" alt="Snow" style="width:58%">
-  </div>
-  <div class="column">
-    <img src="img/award/awards_list3.jpg" alt="Mountains" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="img/award/awards_list4.jpg" alt="Lights" style="width:58%">
-  </div>
-  <div class="column">
-    <img src="img/award/awards_list5.jpg" alt="Lights" style="width:49%">
-  </div>
-    <div class="column">
-    <img src="img/award/awards_list6.jpg" alt="Lights" style="width:58%">
-  </div>
-</div>
-<a href="https://www.w3schools.com/" style="font-size: small; color:blue; ">Click here for more information</a>
-    </div>
-
-
-</section>
+<div class="container" style=" margin-top: 345px;">
+    <div class="row">
+        <div class="col">
         
+      </div>
+
+        <div class="col" style=" ">
+            <h2 style="text-align: center; margin-top: 38px; font-weight: 900; color: Black;">User Registration</h2><br>
+            <p style="text-align: justify; font-size: initial; color: black; margin-top: 4px; font-weight: 800;">In order to perform online transactions on this website, i.e.: Hotel Reservations and Purchase of Discount Vouchers, you have to be a registered user.Please fill out the following form with relevant and valid information.<br>*NOTE: You must be over 18 Years to to register on this site</p>
+            <br>
+            <form  method="" action="login.php">    
+    <div class="row" >
+        <div class="col">
+            <div class="form-group">
+     <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">First Name</label>
+      <input type="text" class="form-control" id="firstname" name="firstname" style="width: 284px; border: 3px solid #555;" onkeypress="return /[a-z]/i.test(event.key)" required="required"></i>
+    </div>
+        </div>
+        <div class="col">
+            <div class="form-group">
+     <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Last name</label>
+      <input type="text" class="form-control" id="lastname" name="lastname" style="width: 284px; border: 3px solid #555;" onkeypress="return /[a-z]/i.test(event.key)" required="required">
+    </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+             <div class="form-group">
+      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Date of Birth</label>
+      <input type="Date" class="form-control" id="dob"  name="dob" style="width: 284px; border: 3px solid #555;" required="required">
+    </div>
+        </div>
+        <div class="col">
+            <div class="form-group">
+      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Nic/Passport</label>
+      <input type="text" class="form-control" id="nic" name="nic" style="width: 284px; border: 3px solid #555;" onkeypress="return /[^(?:19|20)?\d{2}(?:[0-35-8]\d\d(?<!(?:000|500|36[7-9]|3[7-9]\d|86[7-9]|8[7-9]\d)))\d{4}(?i:v|x)$]/i.test(event.key)" maxlength="10" required="required">
+    </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Address</label>
+      <input type="text" class="form-control" id="address" name="address" style="width: 600px; border: 3px solid #555;" required="required">
+    </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">City</label>
+      <input type="text" class="form-control" id="city" name="city" style="width: 284px; border: 3px solid #555;"  onkeypress="return /[a-z]/i.test(event.key)" required="required">
+    </div>
+        </div>
+        <div class="col">
+            <div class="form-group">
+      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Contact Number</label>
+      <input type="tel" class="form-control" id="phone" name="number" style="width: 284px;  border: 3px solid #555;" onkeypress="return /[0-9]/i.test(event.key)" maxlength="10"  required="required">
+    </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Email</label>
+      <input type="Email" class="form-control" id="email" name="email" style="width: 284px; border: 3px solid #555; " required="required">
+    </div>
+        </div>
+        <div class="col">
+            <div class="form-group">
+      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Password</label>
+      <input type="password" class="form-control" id="password" name="password" style="width: 284px;  border: 3px solid #555;" required="required">
+    </div>
+        </div>
+        
+    </div>
+    <div class="row" style="text-align: center;">
+        <div class="col">
+            <div class="checkbox">
+      <input type="checkbox" name="remember" required="required"> I agree to <a href="Terms.php" style="color:blue;">Terms and Conditions</a></label>
+    </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            
+        </div>
+        <div class="col">
+            <button  id="check" type="submit" class="btn btn-outline-primary" style="font-weight: 800;  width: 172px;">Register</button>
+            
+        </div>
+        <div class="col">
+            <button type="reset" class="btn btn-outline-secondary" style="font-weight: 800;  width: 172px;" >Clear</button> 
+        </div>
+        <div class="col">
+            
+        </div>
+    </div>
+            </form>
+            <br>
+        </div>
+        <div class="col">
+        
+      </div>
+    </div>
+  </div> 
 
 
-
+   
     <!-- footer -->
-    <footer class="footer" style="margin-top: -32px;"> 
+    <footer class="footer" style="margin-top: 65px; position: relative;">
         <div class="footer_top">
             <div class="container">
                 <div class="row">
-
-
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
@@ -305,7 +349,7 @@
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="footer_widget" style="position: absolute; right: 18px;">
                             <h3 class="footer_title">
-                                Activities
+                                Facilities
                             </h3>
                             <ul>
                                 <li><a href="#">Bird Watching</a></li>
@@ -342,8 +386,39 @@
 
 
 
-
     <!-- JS here -->
+    <script>
+// function myFunction() {
+//     if(){
+//      alert('error please fill all fields!');
+//     }else
+//   alert("");
+//}
+
+
+$('#check').on("click", function(){
+  let valid = true;
+  $('[required]').each(function() {
+    if ($(this).is(':invalid') || !$(this).val()) valid = false;
+  })
+  if (!valid) alert("error please fill all fields!");
+  else alert('Welcome Now your are offialy Registered!');
+})
+
+</script>
+
+<script>
+        $(function() {
+            $('#submit').attr('disabled', true);
+            $('#myForm').change(function() {
+                if ($('#firstname').val() != '' && $('#lastname').val() != '' && $('#dob').val() != '' && $('#nic').val() != '' && $('#address').val() != '' && $('#city').val() != '' && $('#phone').val() != '' && $('#email').val() != '' && $('#password').val() != '') {
+                    $('#submit').attr('disabled', false);
+                } else {
+                    $('#submit').attr('disabled', true);
+                }
+            });
+        });
+    </script>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>

@@ -44,27 +44,28 @@
                                     <ul id="navigation">
                                         <li><a class="active">Menu <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                            <li><a href="../Ranweli/index.php">Home</a></li>
+                                            <li><a href="../Registration/index.php">Home</a></li>
                                                 <li><a href="../Reservation/Activities.php">Activities</a></li>
-                                                <li><a href="../resort.html">The Resort</a></li>
-                                                <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
-                                                <li><a href="../contactus/Environmental.php">Environmental Policies</a></li>
-                                                <li><a href="../contactus/Ayurveda.php">Ayurweda</a></li>
-                                                <li><a href="../weddings.html">Weddings</a></li>
+                                                <li><a href="../Payments/resort.html">The Resort</a></li>
+                                                <li><a href="../Booking/HTML/Accomadation.php">Accomodation</a></li>
+                                                <li><a href="Environmental.php">Environmental Policies</a></li>
+                                                <li><a href="Ayurveda.php">Ayurweda</a></li>
+                                                <li><a href="../Payments/weddings.html">Weddings</a></li>
                                                 <li><a href="../Reservation/Reservation.php">Reservations</a></li>
-                                                <li><a href="../Ranweli/partners.php">Our Partners</a></li>
+                                                <li><a href="../Registration/partners.php">Our Partners</a></li>
                                                 <li><a href="../Reservation/Awards.php">Awards & Recognition</a></li>
-                                                <li><a href="../gallery.html">Gallery</a></li>
+                                                <li><a href="../Payments/gallery.html">Gallery</a></li>
                                                 <li><a href="#">What's New</a></li>
-                                                <li><a href="../Ranweli/offers.php">Special Offers</a></li>
-                                                <li><a href="../Sudana/HTML/AboutUs.php">About Us</a></li>
-                                                <li><a href="../contactus/contact.php">Contact Us</a></li>
+                                                <li><a href="../Registration/offers.php">Special Offers</a></li>
+                                                <li><a href="../Booking/HTML/AboutUs.php">About Us</a></li>
+                                                <li><a href="contact.php">Contact Us</a></li>
                                             </ul>    
                                         </li>
-                                        <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
+                                        <li><a href="../Booking/HTML/room-details.php">Accomodation</a></li>
                                         <li><a href="#">Dining</a></li>
-                                        <li><a href="../Ranweli/offers.php">Offers</a></li>
+                                        <li><a href="../Registration/offers.php">Offers</a></li>
                                     </ul>
+                                </nav>
                                 </nav>
                             </div>
                         </div>
@@ -97,7 +98,7 @@
                                     </ul>
                                 </div>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a href="#">Book Now</a>
+                                    <a href="../Registration/userReg.php">Book Now</a>
                                 </div>
                             </div>
                         </div>

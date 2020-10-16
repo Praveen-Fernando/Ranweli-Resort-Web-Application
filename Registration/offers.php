@@ -24,21 +24,10 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<!--     <!-- <link rel="stylesheet" href="css/responsive.css"> 
-    <style type="text/css">
-        form:before {
-    content: '';
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background-color: rgba(0,0,0,0.3);
-    z-index: -1;
-    border-radius: 10px;
-}
-    </style> -->
+    <link rel="stylesheet" href="css/style1.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+
+
 </head>
 
 <body>
@@ -58,26 +47,26 @@
                                     <ul id="navigation">
                                         <li><a class="active">Menu <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                            <li><a href="../Ranweli/index.php">Home</a></li>
+                                                <li><a href="../Registration/index.php">Home</a></li>
                                                 <li><a href="../Reservation/Activities.php">Activities</a></li>
-                                                <li><a href="../resort.html">The Resort</a></li>
-                                                <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
+                                                <li><a href="../Payments/resort.html">The Resort</a></li>
+                                                <li><a href="../Booking/HTML/Accomadation.php">Accomodation</a></li>
                                                 <li><a href="../contactus/Environmental.php">Environmental Policies</a></li>
                                                 <li><a href="../contactus/Ayurveda.php">Ayurweda</a></li>
-                                                <li><a href="../weddings.html">Weddings</a></li>
+                                                <li><a href="../Payments/weddings.html">Weddings</a></li>
                                                 <li><a href="../Reservation/Reservation.php">Reservations</a></li>
-                                                <li><a href="../Ranweli/partners.php">Our Partners</a></li>
+                                                <li><a href="../Registration/partners.php">Our Partners</a></li>
                                                 <li><a href="../Reservation/Awards.php">Awards & Recognition</a></li>
-                                                <li><a href="../gallery.html">Gallery</a></li>
+                                                <li><a href="../Payments/gallery.html">Gallery</a></li>
                                                 <li><a href="#">What's New</a></li>
-                                                <li><a href="../Ranweli/offers.php">Special Offers</a></li>
-                                                <li><a href="../Sudana/HTML/AboutUs.php">About Us</a></li>
+                                                <li><a href="../Registration/offers.php">Special Offers</a></li>
+                                                <li><a href="../Booking/HTML/AboutUs.php">About Us</a></li>
                                                 <li><a href="../contactus/contact.php">Contact Us</a></li>
-                                            </ul>    
+                                            </ul>
                                         </li>
-                                        <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
+                                        <li><a href="../Booking/HTML/room-details.php">Accomodation</a></li>
                                         <li><a href="#">Dining</a></li>
-                                        <li><a href="../Ranweli/offers.php">Offers</a></li>
+                                        <li><a href="../Registration/offers.php">Offers</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -111,8 +100,7 @@
                                     </ul>
                                 </div>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a href="booking.php">Book Now</a>
-
+                                    <a href="userReg.php">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -127,9 +115,9 @@
     <!-- header-end -->
 
     <!-- slider_area_start -->
-    <div class="slider_area" >
-        <div class="slider_active owl-carousel"style="height: 55vh;">
-            <div class="single_slider d-flex align-items-center justify-content-center  slider_bg_1" style="height: 77vh;">
+    <div class="slider_area">
+        <div class="slider_active owl-carousel">
+            <div class="single_slider d-flex align-items-center justify-content-center  slider_bg_1">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -141,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2" style="height: 77vh;">
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -153,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1" style="height: 77vh;">
+            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -165,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2" style="height: 77vh;">
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -184,163 +172,79 @@
 
 
 
-<img src="img/reg1.jpg" alt="Girl in a jacket" style=" width: 100%; margin-top: 394px; ">
+     
+<br><br><br><br><br><br><br><br>
+<section class="jumbotron text-center" style="margin-top: -192px;">
+    <div class="container" style="height: 1174px; margin-top: -24px;">
+        <h1 class="jumbotron-heading" style="font-size:xx-large;">SPECIAL OFFERS</h1>
+        <p class="lead text-muted mb-0" style="font-size: initial; font-weight: 700;">Spend a comfortable and pleasurable stay amidst scenic settings by the beach while holidaying in the Southern coast of Sri Lanka. Travellers from all over the world staying at a hotel such as ours will have the benefit of enjoying an array of discounts and exclusive special offers on rejuvenating spa treatments, delectable dining, complimentary airport transfers and more..</p>
+         <br>
+       <h1 class="jumbotron-heading" style="font-size:x-large; float: left; "><strong>LOCAL EXCLUSIVE - 50%OFF</strong></h1>
+       <div class="container" style="float: left;">
+  <div class="row">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+<!-- 
+  <!-- Indicators 
+  <ul class="carousel-indicators" style="margin-top: 436px;">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul> -->
+
+  <!-- The slideshow -->
+  <div class="carousel-inner" style="    height: 88%">
+    <div class="carousel-item active">
+      <img src="img/offers/offer1.jpg" width="100%" alt="Offer1">
+    </div>
+    <div class="carousel-item">
+      <img src="img/offers/offer2.jpg" width="100%" alt="offer2"> 
+    </div>
+    <div class="carousel-item">
+      <img src="img/offers/offer3.jpg" width="100%" alt="offer3k">
+    </div>
+    <div class="carousel-item">
+      <img src="img/offers/offer4.jpg" width="100%" alt="offer4">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev" style="margin-top: -72px;">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next" style="margin-top: -72px;">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+<br>
+</div>
+<p class="lead text-muted mb-0" style="font-size: initial; float: left; text-align: initial; margin-top: -64px; font-weight: 700;">Enjoy 50% Off on Accommodation for Deluxe Rooms, Superior Deluxe Rooms & Club Suites.Take advantage of the luxurious spaces the Ranweli holiday village has to offer.<br>*Exclusive Web Offer for Sri Lankan Residents & Resident Visa Holders!<br>*Valid for stays from 1st August to 31st October 2020.</p>
+  </div>
+</div>
+<br><br><br>
+   <h1 class="jumbotron-heading" style="font-size:x-large; float: left; margin-top: 20px;"><strong>DINING OFFERS</strong></h1>    
+    <img src="img/offers/offer5.jpg" alt="Trulli" width="500" height="333" style="float: right;
+    margin-top: 68px;">
+    <p class="lead text-muted mb-0" style="font-size: initial; width: 54%; text-align: justify; float: left; font-weight: 700; ">Happy Hours at Cloud Café, open for you and your friends from 5:30 PM to 7:30PM.<br><br>Please Note: Promotions, Deals, and Offer details are physically collected from business centers or direct submission or social media websites or web portals. Offers may change without prior notice. Please check with the respective companies before visiting or ordering.
+<br>* Terms and Conditions May Apply.
+<br>* Tax May Be Applicable.</p>
+  </div>
+  </div>
+</section>
   
 
-<div class="container" style="max-width: 633px; margin-top: -1243px;">
-    <div class="row">
-        <div class="col">
-            <h1 style="text-align: center; margin-top: 38px; font-weight: 900; color: black;">User Profile</h1><br>
-            <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Hello Praveen.</label>
-            <br><br>
-            <form method="" action="">    
-    <div class="row" >
-        <div class="col">
-            <div class="form-group">
-     <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">First Name</label>
-      <input type="text" class="form-control"  name="firstname" style="width: 284px; border: 3px solid #555;" value="Praveen"></i>
-    </div>
-        </div>
-        <div class="col">
-            <div class="form-group">
-     <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Last name</label>
-      <input type="text" class="form-control"  name="lastname" style="width: 284px; border: 3px solid #555;" value="Fernando">
-    </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-             <div class="form-group">
-      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Date of Birth</label>
-      <input type="text" class="form-control"  name="dob" style="width: 284px; border: 3px solid #555;" value="04/06/1998">
-    </div>
-        </div>
-        <div class="col">
-            <div class="form-group">
-      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Nic/Passport</label>
-      <input type="text" class="form-control"  name="nic" style="width: 284px; border: 3px solid #555; " value="980878255v">
-    </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="form-group">
-      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Address</label>
-      <input type="text" class="form-control" name="address" style="width: 600px; border: 3px solid #555;" value="26,6th Lane Rawathawatta Moratuwa">
-    </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="form-group">
-      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">City</label>
-      <input type="text" class="form-control" name="city" style="width: 284px; border: 3px solid #555; " value="Moratuwa">
-    </div>
-        </div>
-        <div class="col">
-            <div class="form-group">
-      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Contact Number</label>
-      <input type="text" class="form-control" name="number" style="width: 284px; border: 3px solid #555; " value="0775118495">
-    </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <div class="form-group">
-      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Email</label>
-      <input type="Email" class="form-control" name="email" style="width: 284px;border: 3px solid #555; " value="praveen.fernando1998@gmail.com">
-    </div>
-        </div>
-        <div class="col">
-            <div class="form-group">
-      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Password</label>
-      <input type="password" class="form-control" name="password" style="width: 284px; border: 3px solid #555;" value="praveen321"  disabled>
-    </div>
-        </div>
-    </div>
- 
-    <div class="row" >
-        <div class="col">
-            <button type="submit" class="btn btn-outline-primary" style="font-weight: 800;  width: 172px;" onclick="myFunction()">Update</button>
-            
-        </div>
-       
-
-    </div>
-            </form>
-            <br>
-        </div>
-              <div class="col">
-        <h2 style="text-align: left; margin-top: 38px; font-weight: 900; color: black;">Change Password</h2><br>
-
-            <form method="" action="">    
-    <div class="row">
-
-    	<div class="col">
-    	<div class="form-group">
-      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">New Password</label>
-      <input type="password" class="form-control" id="tpassword" name="password" style="width: 284px; border: 3px solid #555;" required="required">
-    </div>
-    	</div>
-    	<div class="col">
-    		<div class="form-group">
-      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Confirm Password</label>
-      <input type="password" class="form-control" id="cpassword" name="cpassword" style="width: 284px; border: 3px solid #555;" required="required">
-    </div>	
-    	</div>   
-    </div>
-    
-    <div class="row" >
-        <div class="col">
-            <button type="submit" id="btnSubmit" class="btn btn-outline-primary" style="font-weight: 800;  width: 172px;" onclick="return Validate()">Change password</button>
-        </div>
-    </div>
-    </form>
-    <br>
-    <form method="" action="userReg.php">
-    <div class="row">
-    	<div class="col"> 
-    	<h2 style="text-align: left; margin-top: 38px; font-weight: 900; color: black;">Delete Account</h2><br>
-</div>
-    </div>
-    <div class="row">
-    	<div class="col"> 
-    	<div class="checkbox">
-      <label style="font-weight: 500; color: black;"><input type="checkbox" name="remember" required="required">&nbsp;&nbsp; Account will be permanently deactivated</label>
-    </div>
-    </div>
-    </div>
-    <div class="row">
-    	<div class="col"> 
-    	<div class="checkbox">
-      <label style="font-weight: 500; color: black;"><input type="checkbox" name="remember" required="required">&nbsp;&nbsp;Hotel will be not Responsibale for your Account</label>
-    </div>
-</div>
-    </div>
-    <br>
-    <div class="row">
-        <div class="col">
-            <button type="submit" class="btn btn-outline-danger" style="font-weight: 800;  width: 172px;"  >Delete</button> 
-        </div> 
-    </div>
-            </form>
-      </div>
-    </div>
-  </div> 
 
 
- 
-
-
-    <!-- footer -->
-    <footer class="footer" style="margin-top: 49px; position: relative;">
+    <!-- <!-- footer -->
+    <footer class="footer" style="margin-top: -32px;">
         <div class="footer_top">
             <div class="container">
                 <div class="row">
+
+
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                               <a href="index.php">
+                               <a href="Home.php   ">
                                     <img src="img/RLogo.jpg" width="300" height="300" alt="">
                                 </a>
                             </h3>                            
@@ -423,29 +327,6 @@
 
 
     <!-- JS here -->
-
-    <script type="text/javascript">
-    $(function () {
-        $("#btnSubmit").click(function () {
-            var password = $("#tpassword").val();
-            var cPassword = $("#cpassword").val();
-            if (tpassword != cpassword) {
-                alert("Passwords do not match.");
-                return false;
-            }
-            return true;
-        });
-    });
-</script>
-        <script>
-function myFunction() {
-  alert("Updated Successfully!");
-}
-
-
-
-</script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -470,6 +351,8 @@ function myFunction() {
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
+
+
 
 
 </body>

@@ -24,8 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-   
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <!--     <!-- <link rel="stylesheet" href="css/responsive.css"> 
     <style type="text/css">
         form:before {
@@ -59,26 +58,26 @@
                                     <ul id="navigation">
                                         <li><a class="active">Menu <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                            <li><a href="../Ranweli/index.php">Home</a></li>
+                                                <li><a href="../Registration/index.php">Home</a></li>
                                                 <li><a href="../Reservation/Activities.php">Activities</a></li>
-                                                <li><a href="../resort.html">The Resort</a></li>
-                                                <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
+                                                <li><a href="../Payments/resort.html">The Resort</a></li>
+                                                <li><a href="../Booking/HTML/Accomadation.php">Accomodation</a></li>
                                                 <li><a href="../contactus/Environmental.php">Environmental Policies</a></li>
                                                 <li><a href="../contactus/Ayurveda.php">Ayurweda</a></li>
-                                                <li><a href="../weddings.html">Weddings</a></li>
+                                                <li><a href="../Payments/weddings.html">Weddings</a></li>
                                                 <li><a href="../Reservation/Reservation.php">Reservations</a></li>
-                                                <li><a href="../Ranweli/partners.php">Our Partners</a></li>
+                                                <li><a href="../Registration/partners.php">Our Partners</a></li>
                                                 <li><a href="../Reservation/Awards.php">Awards & Recognition</a></li>
-                                                <li><a href="../gallery.html">Gallery</a></li>
+                                                <li><a href="../Payments/gallery.html">Gallery</a></li>
                                                 <li><a href="#">What's New</a></li>
-                                                <li><a href="../Ranweli/offers.php">Special Offers</a></li>
-                                                <li><a href="../Sudana/HTML/AboutUs.php">About Us</a></li>
+                                                <li><a href="../Registration/offers.php">Special Offers</a></li>
+                                                <li><a href="../Booking/HTML/AboutUs.php">About Us</a></li>
                                                 <li><a href="../contactus/contact.php">Contact Us</a></li>
-                                            </ul>    
+                                            </ul>
                                         </li>
-                                        <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
+                                        <li><a href="../Booking/HTML/room-details.php">Accomodation</a></li>
                                         <li><a href="#">Dining</a></li>
-                                        <li><a href="../Ranweli/offers.php">Offers</a></li>
+                                        <li><a href="../Registration/offers.php">Offers</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -112,8 +111,8 @@
                                     </ul>
                                 </div>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a href="userReg.php">Register</a>
-                                    <a href="login.php">Login</a>
+                                    <a href="booking.php">Book Now</a>
+
                                 </div>
                             </div>
                         </div>
@@ -130,7 +129,7 @@
     <!-- slider_area_start -->
     <div class="slider_area" >
         <div class="slider_active owl-carousel"style="height: 55vh;">
-            <div class="single_slider d-flex align-items-center justify-content-center  slider_bg_1" >
+            <div class="single_slider d-flex align-items-center justify-content-center  slider_bg_1" style="height: 77vh;">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -142,7 +141,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2" >
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2" style="height: 77vh;">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -154,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1" >
+            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1" style="height: 77vh;">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -166,7 +165,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2" >
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2" style="height: 77vh;">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -179,36 +178,33 @@
                 </div>
             </div>
         </div>
-    </div> 
-<!--     <!-- slider_area_end-->
+    </div>
+    <!-- slider_area_end -->
 
 
 
-<!-- <img src="img/reg1.jpg" alt="Girl in a jacket" style=" width: 100%; margin-top: 340px; "> -->
+
+<img src="img/reg1.jpg" alt="Girl in a jacket" style=" width: 100%; margin-top: 394px; ">
   
 
-<div class="container" style=" margin-top: 345px;">
+<div class="container" style="max-width: 633px; margin-top: -1243px;">
     <div class="row">
         <div class="col">
-        
-      </div>
-
-        <div class="col" style=" ">
-            <h2 style="text-align: center; margin-top: 38px; font-weight: 900; color: Black;">User Registration</h2><br>
-            <p style="text-align: justify; font-size: initial; color: black; margin-top: 4px; font-weight: 800;">In order to perform online transactions on this website, i.e.: Hotel Reservations and Purchase of Discount Vouchers, you have to be a registered user.Please fill out the following form with relevant and valid information.<br>*NOTE: You must be over 18 Years to to register on this site</p>
-            <br>
-            <form  method="" action="login.php">    
+            <h1 style="text-align: center; margin-top: 38px; font-weight: 900; color: black;">User Profile</h1><br>
+            <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Hello Praveen.</label>
+            <br><br>
+            <form method="" action="">    
     <div class="row" >
         <div class="col">
             <div class="form-group">
      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">First Name</label>
-      <input type="text" class="form-control" id="firstname" name="firstname" style="width: 284px; border: 3px solid #555;" onkeypress="return /[a-z]/i.test(event.key)" required="required"></i>
+      <input type="text" class="form-control"  name="firstname" style="width: 284px; border: 3px solid #555;" value="Praveen"></i>
     </div>
         </div>
         <div class="col">
             <div class="form-group">
      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Last name</label>
-      <input type="text" class="form-control" id="lastname" name="lastname" style="width: 284px; border: 3px solid #555;" onkeypress="return /[a-z]/i.test(event.key)" required="required">
+      <input type="text" class="form-control"  name="lastname" style="width: 284px; border: 3px solid #555;" value="Fernando">
     </div>
         </div>
     </div>
@@ -216,13 +212,13 @@
         <div class="col">
              <div class="form-group">
       <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Date of Birth</label>
-      <input type="Date" class="form-control" id="dob"  name="dob" style="width: 284px; border: 3px solid #555;" required="required">
+      <input type="text" class="form-control"  name="dob" style="width: 284px; border: 3px solid #555;" value="04/06/1998">
     </div>
         </div>
         <div class="col">
             <div class="form-group">
       <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Nic/Passport</label>
-      <input type="text" class="form-control" id="nic" name="nic" style="width: 284px; border: 3px solid #555;" onkeypress="return /[^(?:19|20)?\d{2}(?:[0-35-8]\d\d(?<!(?:000|500|36[7-9]|3[7-9]\d|86[7-9]|8[7-9]\d)))\d{4}(?i:v|x)$]/i.test(event.key)" maxlength="10" required="required">
+      <input type="text" class="form-control"  name="nic" style="width: 284px; border: 3px solid #555; " value="980878255v">
     </div>
         </div>
     </div>
@@ -230,7 +226,7 @@
         <div class="col">
             <div class="form-group">
       <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Address</label>
-      <input type="text" class="form-control" id="address" name="address" style="width: 600px; border: 3px solid #555;" required="required">
+      <input type="text" class="form-control" name="address" style="width: 600px; border: 3px solid #555;" value="26,6th Lane Rawathawatta Moratuwa">
     </div>
         </div>
     </div>
@@ -238,13 +234,13 @@
         <div class="col">
             <div class="form-group">
       <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">City</label>
-      <input type="text" class="form-control" id="city" name="city" style="width: 284px; border: 3px solid #555;"  onkeypress="return /[a-z]/i.test(event.key)" required="required">
+      <input type="text" class="form-control" name="city" style="width: 284px; border: 3px solid #555; " value="Moratuwa">
     </div>
         </div>
         <div class="col">
             <div class="form-group">
       <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Contact Number</label>
-      <input type="tel" class="form-control" id="phone" name="number" style="width: 284px;  border: 3px solid #555;" onkeypress="return /[0-9]/i.test(event.key)" maxlength="10"  required="required">
+      <input type="text" class="form-control" name="number" style="width: 284px; border: 3px solid #555; " value="0775118495">
     </div>
         </div>
     </div>
@@ -252,60 +248,99 @@
         <div class="col">
             <div class="form-group">
       <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Email</label>
-      <input type="Email" class="form-control" id="email" name="email" style="width: 284px; border: 3px solid #555; " required="required">
+      <input type="Email" class="form-control" name="email" style="width: 284px;border: 3px solid #555; " value="praveen.fernando1998@gmail.com">
     </div>
         </div>
         <div class="col">
             <div class="form-group">
       <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Password</label>
-      <input type="password" class="form-control" id="password" name="password" style="width: 284px;  border: 3px solid #555;" required="required">
-    </div>
-        </div>
-        
-    </div>
-    <div class="row" style="text-align: center;">
-        <div class="col">
-            <div class="checkbox">
-      <input type="checkbox" name="remember" required="required"> I agree to <a href="Terms.php" style="color:blue;">Terms and Conditions</a></label>
+      <input type="password" class="form-control" name="password" style="width: 284px; border: 3px solid #555;" value="praveen321"  disabled>
     </div>
         </div>
     </div>
-    <br>
-    <div class="row">
+ 
+    <div class="row" >
         <div class="col">
+            <button type="submit" class="btn btn-outline-primary" style="font-weight: 800;  width: 172px;" onclick="myFunction()">Update</button>
             
         </div>
-        <div class="col">
-            <button  id="check" type="submit" class="btn btn-outline-primary" style="font-weight: 800;  width: 172px;">Register</button>
-            
-        </div>
-        <div class="col">
-            <button type="reset" class="btn btn-outline-secondary" style="font-weight: 800;  width: 172px;" >Clear</button> 
-        </div>
-        <div class="col">
-            
-        </div>
+       
+
     </div>
             </form>
             <br>
         </div>
+              <div class="col">
+        <h2 style="text-align: left; margin-top: 38px; font-weight: 900; color: black;">Change Password</h2><br>
+
+            <form method="" action="">    
+    <div class="row">
+
+    	<div class="col">
+    	<div class="form-group">
+      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">New Password</label>
+      <input type="password" class="form-control" id="tpassword" name="password" style="width: 284px; border: 3px solid #555;" required="required">
+    </div>
+    	</div>
+    	<div class="col">
+    		<div class="form-group">
+      <label class="label" style="color: Black; font-size: 16px; font-weight: 800;">Confirm Password</label>
+      <input type="password" class="form-control" id="cpassword" name="cpassword" style="width: 284px; border: 3px solid #555;" required="required">
+    </div>	
+    	</div>   
+    </div>
+    
+    <div class="row" >
         <div class="col">
-        
+            <button type="submit" id="btnSubmit" class="btn btn-outline-primary" style="font-weight: 800;  width: 172px;" onclick="return Validate()">Change password</button>
+        </div>
+    </div>
+    </form>
+    <br>
+    <form method="" action="userReg.php">
+    <div class="row">
+    	<div class="col"> 
+    	<h2 style="text-align: left; margin-top: 38px; font-weight: 900; color: black;">Delete Account</h2><br>
+</div>
+    </div>
+    <div class="row">
+    	<div class="col"> 
+    	<div class="checkbox">
+      <label style="font-weight: 500; color: black;"><input type="checkbox" name="remember" required="required">&nbsp;&nbsp; Account will be permanently deactivated</label>
+    </div>
+    </div>
+    </div>
+    <div class="row">
+    	<div class="col"> 
+    	<div class="checkbox">
+      <label style="font-weight: 500; color: black;"><input type="checkbox" name="remember" required="required">&nbsp;&nbsp;Hotel will be not Responsibale for your Account</label>
+    </div>
+</div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <button type="submit" class="btn btn-outline-danger" style="font-weight: 800;  width: 172px;"  >Delete</button> 
+        </div> 
+    </div>
+            </form>
       </div>
     </div>
   </div> 
 
 
-   
+ 
+
+
     <!-- footer -->
-    <footer class="footer" style="margin-top: 65px; position: relative;">
+    <footer class="footer" style="margin-top: 49px; position: relative;">
         <div class="footer_top">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                               <a href="Home.php   ">
+                               <a href="index.php">
                                     <img src="img/RLogo.jpg" width="300" height="300" alt="">
                                 </a>
                             </h3>                            
@@ -386,39 +421,31 @@
 
 
 
+
     <!-- JS here -->
-    <script>
-// function myFunction() {
-//     if(){
-//      alert('error please fill all fields!');
-//     }else
-//   alert("");
-//}
+
+    <script type="text/javascript">
+    $(function () {
+        $("#btnSubmit").click(function () {
+            var password = $("#tpassword").val();
+            var cPassword = $("#cpassword").val();
+            if (tpassword != cpassword) {
+                alert("Passwords do not match.");
+                return false;
+            }
+            return true;
+        });
+    });
+</script>
+        <script>
+function myFunction() {
+  alert("Updated Successfully!");
+}
 
 
-$('#check').on("click", function(){
-  let valid = true;
-  $('[required]').each(function() {
-    if ($(this).is(':invalid') || !$(this).val()) valid = false;
-  })
-  if (!valid) alert("error please fill all fields!");
-  else alert('Welcome Now your are offialy Registered!');
-})
 
 </script>
-
-<script>
-        $(function() {
-            $('#submit').attr('disabled', true);
-            $('#myForm').change(function() {
-                if ($('#firstname').val() != '' && $('#lastname').val() != '' && $('#dob').val() != '' && $('#nic').val() != '' && $('#address').val() != '' && $('#city').val() != '' && $('#phone').val() != '' && $('#email').val() != '' && $('#password').val() != '') {
-                    $('#submit').attr('disabled', false);
-                } else {
-                    $('#submit').attr('disabled', true);
-                }
-            });
-        });
-    </script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -443,8 +470,6 @@ $('#check').on("click", function(){
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
-
-
 
 
 </body>

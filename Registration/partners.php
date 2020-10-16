@@ -24,20 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
-<!--     <!-- <link rel="stylesheet" href="css/responsive.css"> 
-    <style type="text/css">
-        form:before {
-    content: '';
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background-color: rgba(0,0,0,0.3);
-    z-index: -1;
-    border-radius: 10px;
-}
-    </style> -->
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
 <body>
@@ -57,26 +44,26 @@
                                     <ul id="navigation">
                                         <li><a class="active">Menu <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                            <li><a href="../Ranweli/index.php">Home</a></li>
+                                                <li><a href="../Registration/index.php">Home</a></li>
                                                 <li><a href="../Reservation/Activities.php">Activities</a></li>
-                                                <li><a href="../resort.html">The Resort</a></li>
-                                                <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
+                                                <li><a href="../Payments/resort.html">The Resort</a></li>
+                                                <li><a href="../Booking/HTML/Accomadation.php">Accomodation</a></li>
                                                 <li><a href="../contactus/Environmental.php">Environmental Policies</a></li>
                                                 <li><a href="../contactus/Ayurveda.php">Ayurweda</a></li>
-                                                <li><a href="../weddings.html">Weddings</a></li>
+                                                <li><a href="../Payments/weddings.html">Weddings</a></li>
                                                 <li><a href="../Reservation/Reservation.php">Reservations</a></li>
-                                                <li><a href="../Ranweli/partners.php">Our Partners</a></li>
+                                                <li><a href="../Registration/partners.php">Our Partners</a></li>
                                                 <li><a href="../Reservation/Awards.php">Awards & Recognition</a></li>
-                                                <li><a href="../gallery.html">Gallery</a></li>
+                                                <li><a href="../Payments/gallery.html">Gallery</a></li>
                                                 <li><a href="#">What's New</a></li>
-                                                <li><a href="../Ranweli/offers.php">Special Offers</a></li>
-                                                <li><a href="../Sudana/HTML/AboutUs.php">About Us</a></li>
+                                                <li><a href="../Registration/offers.php">Special Offers</a></li>
+                                                <li><a href="../Booking/HTML/AboutUs.php">About Us</a></li>
                                                 <li><a href="../contactus/contact.php">Contact Us</a></li>
-                                            </ul>    
+                                            </ul>
                                         </li>
-                                        <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
+                                        <li><a href="../Booking/HTML/room-details.php">Accomodation</a></li>
                                         <li><a href="#">Dining</a></li>
-                                        <li><a href="../Ranweli/offers.php">Offers</a></li>
+                                        <li><a href="../Registration/offers.php">Offers</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -110,8 +97,7 @@
                                     </ul>
                                 </div>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a href="userReg.php">Register</a>
-                                    <a href="login.php">Login</a>
+                                    <a href="userReg.php">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -126,9 +112,9 @@
     <!-- header-end -->
 
     <!-- slider_area_start -->
-    <div class="slider_area" >
-        <div class="slider_active owl-carousel"style="height: 55vh;">
-            <div class="single_slider d-flex align-items-center justify-content-center  slider_bg_1" style="height: 77vh;">
+    <div class="slider_area">
+        <div class="slider_active owl-carousel">
+            <div class="single_slider d-flex align-items-center justify-content-center  slider_bg_1">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -140,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2" style="height: 77vh;">
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -152,7 +138,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1" style="height: 77vh;">
+            <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -164,7 +150,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2" style="height: 77vh;">
+            <div class="single_slider  d-flex align-items-center justify-content-center slider_bg_2">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -179,40 +165,58 @@
         </div>
     </div>
     <!-- slider_area_end -->
-    <img src="img/reg1.jpg" alt="Girl in a jacket" style=" width: 100%; margin-top: 209px; ">
-<div class="container" style=" width: fit-content; border-style: solid; margin-top: -1009px; position: relative; background-color: white; box-shadow: 10px 10px 8px 10px #888888; border-color: white;" >
-    <h2 style="text-align: center;  margin-top: 11px; font-weight: 900; color: black;">Login</h2>
-  <img src="img/RLogo.png" alt="Girl in a jacket" style="width: 60%; margin-left: auto; margin-right: auto;
-    display: block;">
-  <form action="profile.php" style="text-align: -webkit-center;">
-    <div class="form-group">
-      <label class="label" style="color: black; font-size: 16px; font-weight: 800;">Email</label>
-      <input type="email" class="form-control" id="email" name="username" style="width: 284px; border: 3px solid #555;" required="required">
-    </div> 
-    <div class="form-group">
-      <label class="label" style="color:black; font-size: 16px; font-weight: 800;">Password</label>
-      <input type="password" class="form-control" name="password" style="width: 284px; border: 3px solid #555;" required="required">
-    </div>
-    <a href="profile.php" style="color:black;">Forgot Email?</a><br>
-    <a href="profile.php" style="color:black;">Forgot Password?</a>
-    <br>
-    <div class="checkbox">
-      <label style="font-weight: 500; color: black;"><input type="checkbox" name="remember"> Remember me</label>
-    </div>
-    <button href="profile.php" type="submit" class="btn btn-outline-primary"" style=" width: 152px;">Login</button>
-  </form>
-  <br>
-</div>
 
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br>
+<section class="jumbotron text-center" style="margin-top: -192px; height: 985px;">
+    <div class="container">
+        <h1 class="jumbotron-heading" style="font-size:xx-large;"><strong>OUR PARTNERS</strong></h1>
+        <br>
+  <img src="img/partners/partnerlogo.png" alt="partnerlogo"  height="600" style="width: fit-content; float: left; height: 100%;">
+  <h1 class="jumbotron-heading" style="font-size:x-large; text-align: justify; margin-top: 16px;
+    margin-bottom: -1px;">The International Ecotourism Society(TIES)</h1>
+  <p class="lead text-muted mb-0" style="font-size: medium; text-align: justify; font-weight: 600;">
+Ranweli is a sponsor member of The International Ecotourism Society (TIES), based in Washington DC, USA. This society is widely regarded as the pre-eminent organization in the field of Ecotourism according to the Wall Street Journal. Late Mr. Chandra de Silva, CEO of Ranweli, was invited in 1998 to the Advisory Board of TIES, and was elected to the Board of Directors in 2004 & for <a href="https://ecotourism.org/">More info.</a></p>
+
+<h1 class="jumbotron-heading" style="font-size:x-large; text-align: justify; margin-top: 16px;
+    margin-bottom: -1px;">Ecoclub</h1>
+  <p class="lead text-muted mb-0" style="font-size: medium; text-align: justify; font-weight: 600;">Ranweli is an ecolodge member of ecoclub.com. It was also the winner of the first annual ecolodge award, in 2004 for a bio-farming project at DBV Girls School & for <a href="http://www.ecoclub.com/">More info.</a> </p>
+
+<h1 class="jumbotron-heading" style="font-size:x-large; text-align: justify; margin-top: 16px;
+    margin-bottom: -1px;">Responsibletravel.com</h1>
+  <p class="lead text-muted mb-0" style="font-size: medium; text-align: justify; font-weight: 600;">Consequent to winning the British Airways Tourism for Tomorrow Awards in 2003, we were invited to be featured in this web site & for <a href="https://www.responsibletravel.com/">More info.</a> </p>
+
+<h1 class="jumbotron-heading" style="font-size:x-large; text-align: justify; margin-top: 16px;
+    margin-bottom: -1px;">Tour India</h1>
+  <p class="lead text-muted mb-0" style="font-size: medium; text-align: justify; font-weight: 600;">A leading Ecotourism tour operator in Kerala.</a> </p>
+
+  <h1 class="jumbotron-heading" style="font-size:x-large; text-align: justify; margin-top: 16px;
+    margin-bottom: -1px;">Field Ornithology Group of Sri Lanka (FOGSL)</h1>
+  <p class="lead text-muted mb-0" style="font-size: medium; text-align: justify; font-weight: 600;">Field Ornithology Group of Sri Lanka (FOGSL) is a reputed NGO under the Department of Zoology, University of Colombo.</p>
+
+  <h1 class="jumbotron-heading" style="font-size:x-large; text-align: justify; margin-top: 16px;
+    margin-bottom: -1px;">Birdlife International</h1>
+  <p class="lead text-muted mb-0" style="font-size: medium; text-align: justify; font-weight: 600;">We are an affiliate of Birdlife International & for <a href="http://www.birdlife.org/">More info.</a> </p>
+         <br> 
+  </div>
+</section>
+<br><br><br><br><br><br><br><br>
     <!-- footer -->
-    <footer class="footer" style="margin-top: 46px; position: relative;">
+    <footer class="footer" style="margin-top: -224px;">
         <div class="footer_top">
             <div class="container">
                 <div class="row">
+
+
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                               <a href="Home.php   ">
+                               <a href="index.php">
                                     <img src="img/RLogo.jpg" width="300" height="300" alt="">
                                 </a>
                             </h3>                            

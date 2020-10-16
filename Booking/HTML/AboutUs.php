@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Room details</title>
+    <title>About us</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,9 +26,6 @@
     <link rel="stylesheet" href="../css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 
-    <style>
-		hr{ border-top:2px solid black;background-color:black;}
-		</style>
 </head>
 
 <body>
@@ -48,26 +45,26 @@
                                     <ul id="navigation">
                                         <li><a class="active">Menu <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                            <li><a href="../Ranweli/index.php">Home</a></li>
-                                                <li><a href="../Reservation/Activities.php">Activities</a></li>
-                                                <li><a href="../../resort.html">The Resort</a></li>
-                                                <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
-                                                <li><a href="../contactus/Environmental.php">Environmental Policies</a></li>
-                                                <li><a href="../contactus/Ayurveda.php">Ayurweda</a></li>
-                                                <li><a href="../../weddings.html">Weddings</a></li>
-                                                <li><a href="../Reservation/Reservation.php">Reservations</a></li>
-                                                <li><a href="../Ranweli/partners.php">Our Partners</a></li>
-                                                <li><a href="../Reservation/Awards.php">Awards & Recognition</a></li>
-                                                <li><a href="../../gallery.html">Gallery</a></li>
+                                            <li><a href="../../Registration/index.php">Home</a></li>
+                                                <li><a href="../../Reservation/Activities.php">Activities</a></li>
+                                                <li><a href="../../Payments/resort.html">The Resort</a></li>
+                                                <li><a href="Booking/HTML/Accomadation.php">Accomodation</a></li>
+                                                <li><a href="../../contactus/Environmental.php">Environmental Policies</a></li>
+                                                <li><a href="../../contactus/Ayurveda.php">Ayurweda</a></li>
+                                                <li><a href="../../Payments/weddings.html">Weddings</a></li>
+                                                <li><a href="../../Reservation/Reservation.php">Reservations</a></li>
+                                                <li><a href="../../Registration/partners.php">Our Partners</a></li>
+                                                <li><a href="../../Reservation/Awards.php">Awards & Recognition</a></li>
+                                                <li><a href="../../Payments/gallery.html">Gallery</a></li>
                                                 <li><a href="#">What's New</a></li>
-                                                <li><a href="../Ranweli/offers.php">Special Offers</a></li>
-                                                <li><a href="../Sudana/HTML/AboutUs.php">About Us</a></li>
-                                                <li><a href="../contactus/contact.php">Contact Us</a></li>
+                                                <li><a href="../../Registration/offers.php">Special Offers</a></li>
+                                                <li><a href="Booking/HTML/AboutUs.php">About Us</a></li>
+                                                <li><a href="../../contactus/contact.php">Contact Us</a></li>
                                             </ul>    
                                         </li>
-                                        <li><a href="../Sudana/HTML/Accomadation.php">Accomodation</a></li>
+                                        <li><a href="Booking/HTML/room-details.php">Accomodation</a></li>
                                         <li><a href="#">Dining</a></li>
-                                        <li><a href="../Ranweli/offers.php">Offers</a></li>
+                                        <li><a href="../../Registration/offers.php">Offers</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -101,7 +98,7 @@
                                     </ul>
                                 </div>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a href="../../Ranweli/userReg.php">Book Now</a>
+                                    <a href="../../Registration/userReg.php">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +111,6 @@
         </div>
     </header>
     <!-- header-end -->
-
     <!-- slider_area_start -->
     <div class="slider_area">
         <div class="slider_active owl-carousel">
@@ -169,137 +165,31 @@
         </div>
     </div>
     <!-- slider_area_end -->
-
-
-
-
-
-
-	
-				<div class="container" style="margin-top:50px;">
-                <h2>Duluxe Sea View Bungalowe</h2>
-			        <hr>
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="card">
-								<img class="card-img" src="../img/rooms/Duluxe-single.jpg" style="height:200px;"  alt="Bologna">
-									<div class="card-img-overlay">
-										<a href="#" class="btn btn-secondary">Book now</a>
-									</div>
-									<div class="card-body">
-										<h4 class="card-title">Single-bed Rooms</h4>
-										<small class="text-muted cat">
-											<i class="far fa-clock text-info"></i> 30 minutes<i class="fas fa-users text-info"></i> 4 portions
-										</small>
-										<p class="card-text">large Wardrobe with individual Safe Lockers, Mini Fridge , Mini Bar, Tea / Coffee making facilities, Split Type A/C, Ceiling Fan, LED TV with cable connection, Telephone, Private Sitting area, Large comfort bed with 10" pocketed spring mattress, Luxurious bedding and newly fitted furniture.</p>
-                                        <p class="card-text">price : Rs 2000/=</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="card">
-									<img class="card-img" src="../img/rooms/Duluxe-double.jpg" style="height:200px;"  alt="Bologna">
-										<div class="card-img-overlay">
-											<a href="#" class="btn btn-secondary">Book now</a>
-										</div>
-										<div class="card-body">
-											<h4 class="card-title">Double-bed Rooms</h4>
-											<small class="text-muted cat">
-												<i class="far fa-clock text-info"></i> 30 minutes
-												<i class="fas fa-users text-info"></i> 4 portions
-                                            </small>
-											<p class="card-text">large Wardrobe with individual Safe Lockers, Mini Fridge , Mini Bar, Tea / Coffee making facilities, Split Type A/C, Ceiling Fan, LED TV with cable connection, Telephone, Private Sitting area, Large comfort bed with 10" pocketed spring mattress, Luxurious bedding and newly fitted furniture.</p>
-                                            <p class="card-text">price : Rs 2500/=</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-4">
-									<div class="card">
-										<img class="card-img" src="../img/rooms/Duluxe-triple.jpg" style="height:200px;"  alt="Bologna">
-											<div class="card-img-overlay">
-												<a href="#" class="btn btn-secondary">Book now</a>
-											</div>
-											<div class="card-body">
-												<h4 class="card-title">Triple-bed Rooms</h4>
-												<small class="text-muted cat">
-													<i class="far fa-clock text-info"></i> 30 minutes
-													<i class="fas fa-users text-info"></i> 4 portions
-												</small>
-												<p class="card-text">large Wardrobe with individual Safe Lockers, Mini Fridge , Mini Bar, Tea / Coffee making facilities, Split Type A/C, Ceiling Fan, LED TV with cable connection, Telephone, Private Sitting area, Large comfort bed with 10" pocketed spring mattress, Luxurious bedding and newly fitted furniture.</p>
-                                                <p class="card-text">price : Rs 3000/=</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-                            <div class="container" style="margin-bottom: 50px;">
-                            <h2 style="margin-top:50px;">Standard Room</h2>
-						        <hr>
-								<div class="row">
-									<div class="col-sm-4">
-										<div class="card">
-											<img class="card-img" src="../img/rooms/standerd-single.jpg" style="height:200px;" alt="Bologna">
-												<div class="card-img-overlay">
-													<a href="#" class="btn btn-secondary">Book now</a>
-												</div>
-												<div class="card-body">
-													<h4 class="card-title">Single-bed Rooms</h4>
-													<small class="text-muted cat">
-														<i class="far fa-clock text-info"></i> 30 minutes
-														<i class="fas fa-users text-info"></i> 4 portions
-													</small>
-													<p class="card-text">based on 2 blocks 6 Rooms each with Sea View Or River View. River View Rooms have private balcony. Rooms are equipped with Mini Fridge , Tea / Coffee making facilities, A/C, sitting area, ceiling fan, telephone and individual Safe Locker. The bathrooms are equipped with solar powered water heating.</p>
-                                                    <p class="card-text">price : Rs 1500/=</p>
-												</div>
-											</div>
-										</div>
-										<div class="col-sm-4">
-											<div class="card">
-												<img class="card-img" src="../img/rooms/standard-double.jpg" style="height:200px;" alt="Bologna">
-													<div class="card-img-overlay">
-														<a href="#" class="btn btn-secondary">Book now</a>
-													</div>
-													<div class="card-body">
-														<h4 class="card-title">Double-bed Rooms</h4>
-														<small class="text-muted cat">
-                                                            <i class="far fa-clock text-info"></i> 30 minutes
-                                                            <i class="fas fa-users text-info"></i> 4 portions
-														</small>
-														<p class="card-text">based on 2 blocks 6 Rooms each with Sea View Or River View. River View Rooms have private balcony. Rooms are equipped with Mini Fridge , Tea / Coffee making facilities, A/C, sitting area, ceiling fan, telephone and individual Safe Locker. The bathrooms are equipped with solar powered water heating.</p>
-                                                        <p class="card-text">price : Rs 2000/=</p>
-													</div>
-												</div>
-											</div>
-											<div class="col-sm-4">
-												<div class="card">
-													<img class="card-img" src="../img/rooms/standerd-triple.jpg" style="height:200px" alt="Bologna">
-														<div class="card-img-overlay">
-															<a href="#" class="btn btn-secondary">Book now</a>
-														</div>
-														<div class="card-body">
-															<h4 class="card-title">Triple-bed Rooms</h4>
-															<small class="text-muted cat">
-																<i class="far fa-clock text-info"></i> 30 minutes
-																<i class="fas fa-users text-info"></i> 4 portions
-															</small>
-															<p class="card-text">based on 2 blocks 6 Rooms each with Sea View Or River View. River View Rooms have private balcony. Rooms are equipped with Mini Fridge , Tea / Coffee making facilities, A/C, sitting area, ceiling fan, telephone and individual Safe Locker. The bathrooms are equipped with solar powered water heating.</p>
-                                                            <p class="card-text">price : Rs 2500/=</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-
-
-
-
-
-
-
+    <div class="container" style="margin-top:50px;margin-bottom: 100px;">
+				<div class="row">
+					<div class="col-sm-8">
+						<h1>About us</h1>
+						<p style="font-size: 20px;">Ranweli Holiday Village is an eco-friendly tourist resort fully committed to protect the environment.</p>
+						<h3 style="margin-top:30px;">Our History</h3>
+						<p style="font-size: 20px;">Ranweli is considered an example of a property built more than 25 years ago for traditional “sun, sea and sand,” which was completely transformed to become a model of environmental leadership and practice. The property was constructed in 1975 using 100% local material and was based on the concept of a Sri Lankan village. It was refurbished in 1996 to meet the standards of an international Ecotourism facility and was further developed to provide facilities to offer an authentic soft-adventure experience, together with comfortable and rustic accommodation in idyllic surroundings.</p>
+						<h3 style="margin-top:30px;">Our Mission</h3>
+						<p style="font-size: 20px;">We provide tranquil holidays with a nature and cultural experience</p>
+						<h3 style="margin-top:30px;">Our vision</h3>
+						<p style="font-size: 20px;">To be a Trail Blazer in Eco Tourism</p>
+						<p style="font-size: 20px;">** WHITE-THROATED KINGFISHER Halcyon smyrnensis S.Layasudu Pilihuduwa S.Kondaya
+30cm. White throat and breast. Blue upperpart. BrR. All Zones.Very Common</p>
+					</div>
+					<div class="col-sm-4">
+						<a href="https://www.facebook.com/pages/Ranweli-Holiday-Village/176149999077507"><img src="../img/fb-account.png" class="img-fluid" ></a>
+                        <a href="http://www.flickr.com/search/?q=ranweli" style="margin-top:60px"><img src="../img/flickir-account.png" class="img-fluid" style="margin-top:100px"></a>
+                        <div style="margin-top:50px;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126644.20345369738!2d79.77066165820312!3d7.2827174999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e982d5b16841%3A0x9d47b3058ef3391a!2sRanweli%20Holiday%20Village!5e0!3m2!1sen!2slk!4v1602152528038!5m2!1sen!2slk" width="300" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
+                        </div>
+                        
+					</div>
+				</div>
+            </div>
+        
     <!-- footer -->
     <footer class="footer">
         <div class="footer_top">
