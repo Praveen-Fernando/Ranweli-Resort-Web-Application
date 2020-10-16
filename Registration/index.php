@@ -53,7 +53,7 @@
                                                 <li><a href="../contactus/Ayurveda.php">Ayurweda</a></li>
                                                 <li><a href="../Payments/weddings.html">Weddings</a></li>
                                                 <li><a href="../Reservation/Reservation.php">Reservations</a></li>
-                                                <li><a href="../Registration/partners.php">Our Partners</a></li>
+                                                <li><a href="../Reservation/Partners.php">Our Partners</a></li>
                                                 <li><a href="../Reservation/Awards.php">Awards & Recognition</a></li>
                                                 <li><a href="../Payments/gallery.html">Gallery</a></li>
                                                 <li><a href="#">What's New</a></li>
@@ -71,7 +71,7 @@
                         </div>
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo-img">
-                                <a href="../Ranweli/index.php">
+                                <a href="../Registration/index.php">
                                     <img src="img/1.png"  width="90" height="90" alt="">
                                 </a>
                             </div>
@@ -98,7 +98,7 @@
                                     </ul>
                                 </div>
                                 <div class="book_btn d-none d-lg-block">
-                                    <a href="../Ranweli/userReg.php">Book Now</a>
+                                    <a href="../Registration/userReg.php">Book Now</a>
                                 </div>
                             </div>
                         </div>

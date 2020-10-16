@@ -53,7 +53,7 @@
                                                 <li><a href="../../contactus/Ayurveda.php">Ayurweda</a></li>
                                                 <li><a href="../../Payments/weddings.html">Weddings</a></li>
                                                 <li><a href="../../Reservation/Reservation.php">Reservations</a></li>
-                                                <li><a href="../../Registration/partners.php">Our Partners</a></li>
+                                                <li><a href="../../Reservation/Partners.php">Our Partners</a></li>
                                                 <li><a href="../../Reservation/Awards.php">Awards & Recognition</a></li>
                                                 <li><a href="../../Payments/gallery.html">Gallery</a></li>
                                                 <li><a href="#">What's New</a></li>
