@@ -1,0 +1,52 @@
+
+/*Important*/
+.persons{
+  height: 400px;
+  display:flex;
+  justify-content: center; 
+  align-items: center;
+}
+.person{
+  margin-right: 1rem;
+  width:300px;
+  height: 179px;
+  border: 2px solid #fff;
+  position:relative;
+
+}
+.person img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/*Overlay*/
+.person .overlay{
+  position:absolute;
+  bottom:0;
+  right:0;
+  left:0;
+  height:100%;
+  width:0;
+  background-color: #008CBA;
+  overflow: hidden;
+  transition:0.5s;
+  
+}
+.person:hover .overlay{
+  width: 100%;
+  
+}
+
+/* Text */
+.overlay h3{
+ position:absolute;
+  color: #fff;
+  font-size: 1.5rem;
+  top:49%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  white-space: nowrap; /*Delete the effect of words stacking above each other*/
+}
+
+

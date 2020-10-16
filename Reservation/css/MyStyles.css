@@ -1,0 +1,8 @@
+hr.line{
+  border: 1px solid #EAEAEA;
+}
+
+ .required:after {
+    content:" *";
+    color: red;
+ }
