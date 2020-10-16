@@ -70,12 +70,57 @@ $("#submit").click(function() {
             icon: "warning"
         });
     } else {
+        // Swal.fire({
+        //     title: 'Do you want proceed?',
+        //     showDenyButton: true,
+        //     showCancelButton: true,
+        //     confirmButtonText: `yes`,
+        //     denyButtonText: `no`,
+        //     timer: 3000
+        // }).then((result) => {
+        //     /* Read more about isConfirmed, isDenied below */
+        //     if (result.isConfirmed) {
+        //         Swal.fire('Payment Successful!', '', 'success')
+
+        //     } else if (result.isDenied) {
+        //         Swal.fire('Payment Canceled', '', 'info')
+        //     }
+        // })
+
+        // swal({
+        //     title: "WOW!",
+        //     text: "Message!",
+        //     type: "success"
+        // }).then(okay => {
+        //     if (okay) {
+        //         window.location.href = "weddings.html";
+        //     }
+        // });
+
+        // setTimeout(function() {
+        //     swal({
+        //             title: "Payment Successful!",
+        //             text: " ",
+        //             icon: "success",
+        //             confirmButtonText: "Yes"
+        //         },
+        //         function(inConfirm) {
+        //             if (isConfirm) {
+        //                 window.location.href = "weddings.html";
+        //             }
+        //         });
+        // }, 1000);
+
         swal({
             title: "Payment Successful!",
             text: " ",
-            icon: "success"
+            icon: "success",
+            type: "success"
+        }).then(okay => {
+            if (okay) {
+                window.location.href = "../Reservation/index.php";
+            }
         });
-
     }
 });
 

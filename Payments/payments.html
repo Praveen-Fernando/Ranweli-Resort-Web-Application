@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="header_footer/css/slicknav.css">
     <link rel="stylesheet" href="header_footer/css/style.css">
 
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
     <style>
         .cimg {
             width: 40px;
@@ -208,7 +210,7 @@
                 </span>
             </section>
 
-            <form action="../Registration/index.php" method="post" name="myForm" onsubmit="return validations()">
+            <form method="post" name="myForm" onsubmit="return validations()">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <div class="form">
@@ -288,7 +290,7 @@
                 <div class="buttons">
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
-                            <button class="btn btn-primary border-2 rounded-0 submit" id="submit" type="submit" onclick="validations()">Done</button>
+                            <button class="btn btn-primary border-2 rounded-0 submit" id="submit" type="button" onclick="validations()">Done</button>
                             <button class="btn border-primary border-2 rounded-0 cancel" type="reset">Cancel</button>
                         </div>
                     </div>
@@ -387,6 +389,9 @@
         </div>
     </footer>
 
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <!-- JS here -->
     <script src="header_footer/js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="header_footer/js/vendor/jquery-1.12.4.min.js"></script>
@@ -415,16 +420,8 @@
 
 
 
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-    <!--Font awesome-->
-    <script src="https://kit.fontawesome.com/425e216962.js" crossorigin="anonymous"></script>
 
     <!--Scripts for form validation and necessary Jquery libraries-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="assets/js/jquery.payform.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.payment/3.0.0/jquery.payment.min.js"></script>
 
